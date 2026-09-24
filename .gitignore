@@ -1,0 +1,16 @@
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+image/
+images/
+*.pyc
+artifacts/experimental/
+artifacts/**/diffusion_model_*_final.pt
+artifacts/**/inverse_topk_*.csv
+artifacts/**/complete_candidates_*.xlsx
+data/val_result.xlsx
+data/*_prediction_soft_hard.xlsx
+data/*_comparison.xlsx
+data/*_refined_comparison.xlsx
+
