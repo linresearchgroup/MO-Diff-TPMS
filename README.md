@@ -70,7 +70,14 @@ These notebooks should not be treated as exact reproduction scripts for the repo
 
 ## Data availability
 
-The model checkpoints and derived prediction records are included. The input spreadsheets required by individual notebooks are listed in [`data/README.md`](data/README.md) and will be added separately after dataset review. Until those files are present, the included checkpoints can be inspected, but the complete notebooks cannot be executed end to end.
+The scalers, training histories, and derived prediction records are included. Four binary checkpoint files must be added manually because the repository connector used for the initial upload cannot transfer files larger than approximately 1 MB:
+
+- `artifacts/soft_material/diffusion_model_new_best.pt`
+- `artifacts/soft_material/forward_model_weights_new.pt`
+- `artifacts/high_stiffness/diffusion_model_soft_hard_best.pt`
+- `artifacts/high_stiffness/forward_model_weights_soft_hard.pt`
+
+The input spreadsheets required by individual notebooks are listed in [`data/README.md`](data/README.md) and will be added separately after dataset review. Until the checkpoints and input spreadsheets are present, the complete notebooks cannot be executed end to end.
 
 Code for Fig. 2(j–k), originally generated in Google Colab, is not included. The corresponding results remain documented in the manuscript and supporting material.
 
@@ -83,4 +90,3 @@ Code for Fig. 2(j–k), originally generated in Google Colab, is not included. T
 ## Citation
 
 Please cite the associated manuscript when using this repository. Full citation information will be added after publication.
-
