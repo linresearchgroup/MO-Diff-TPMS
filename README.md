@@ -16,7 +16,7 @@ MO-Diff-TPMS/
 │   ├── soft_material/      # checkpoints, scalers, histories, and saved predictions
 │   └── high_stiffness/     # expanded-domain checkpoints, scalers, and predictions
 ├── experimental/           # later variants not used for the reported soft-material results
-├── data/                   # input-data manifest; datasets are added separately
+├── data/                   # input datasets and validation summaries
 └── requirements.txt
 ```
 
@@ -70,14 +70,9 @@ These notebooks should not be treated as exact reproduction scripts for the repo
 
 ## Data availability
 
-The scalers, training histories, and derived prediction records are included. Four binary checkpoint files must be added manually because the repository connector used for the initial upload cannot transfer files larger than approximately 1 MB:
+The trained checkpoints, scalers, training histories, derived prediction records, and input spreadsheets required for the reported workflows are included. Dataset roles and verification details are listed in [`data/README.md`](data/README.md).
 
-- `artifacts/soft_material/diffusion_model_new_best.pt`
-- `artifacts/soft_material/forward_model_weights_new.pt`
-- `artifacts/high_stiffness/diffusion_model_soft_hard_best.pt`
-- `artifacts/high_stiffness/forward_model_weights_soft_hard.pt`
-
-The input spreadsheets required by individual notebooks are listed in [`data/README.md`](data/README.md) and will be added separately after dataset review. Until the checkpoints and input spreadsheets are present, the complete notebooks cannot be executed end to end.
+The optional `new samples.xlsx` demonstration input is not included because it is not used for the reported manuscript results.
 
 Code for Fig. 2(j–k), originally generated in Google Colab, is not included. The corresponding results remain documented in the manuscript and supporting material.
 
