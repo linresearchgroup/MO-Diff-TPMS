@@ -1,0 +1,7 @@
+Case,Component,Archived_Calculated_MPa,Previous_Audited_Calculated_MPa,New_Calculated_MPa,Target_MPa,source
+S3-b,Storage,5.756627024116551,,5.66760581393961,5.756627024116551,matlab_check/diagnostic_calculations.csv; fixed candidate
+S3-b,Loss,0.5290819423938269,,0.582220853302369,0.5290819423938269,matlab_check/diagnostic_calculations.csv; fixed candidate
+S3-c,Storage,1.167011022567749,,1.20275395290314,1.167011022567749,matlab_check/diagnostic_calculations.csv; fixed candidate
+S3-c,Loss,0.6592949032783508,,0.658603571600307,0.6592949032783508,matlab_check/diagnostic_calculations.csv; fixed candidate
+S3-g,Storage,5.223332368454012,,5.15117018684953,5.223332368454012,matlab_check/diagnostic_calculations.csv; fixed candidate
+S3-g,Loss,1.410624304605854,,1.50701626532461,1.410624304605854,matlab_check/diagnostic_calculations.csv; fixed candidate

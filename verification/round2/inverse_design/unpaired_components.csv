@@ -1,0 +1,3 @@
+Case,cohort,component,Target_MPa,Predicted_MPa,Calculated_MPa,Absolute_target_error_MPa,Absolute_percentage_target_error,Absolute_forward_error_MPa,status,Absolute_surrogate_target_error_MPa,target_origin_group
+S3-h,Soft,Storage,,1.040702462,1.038532554,,,0.0021699079999999,exact target-request linkage not recovered,,Soft unresolved exact request
+S3-h,Soft,Loss,,0.171550423,0.177607462,,,0.0060570389999999,exact target-request linkage not recovered,,Soft unresolved exact request

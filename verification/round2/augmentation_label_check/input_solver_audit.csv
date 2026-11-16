@@ -1,0 +1,9 @@
+Case,training_excel_row,augmented_excel_row,outside_nominal_bounds,reversed_pair,Phase1,Phase2,Phase3,partition_valid,diagnostic_replayed,flag_max,max_true_relative_residual,iteration_min,iteration_max,original_Storage,replay_Storage,replay_minus_original_Storage,original_Loss,replay_Loss,replay_minus_original_Loss
+A1,28892,36543,True,True,125000,0,0,True,True,0.0,9.803064001497862e-07,105.5,184.5,5.96121171378152,5.96121171378152,0.0,0.188044895519225,0.188044895519225,0.0
+A2,22226,27583,True,True,0,0,125000,True,False,,,,,,,,,,
+A3,18365,22798,True,False,0,125000,0,True,True,0.0,9.944957640770688e-07,106.5,172.5,5.74928543348571,5.74928543348571,0.0,0.761573525468531,0.761573525468531,0.0
+A4,18840,23573,False,False,99096,25352,552,True,True,0.0,9.956837254064905e-07,129.0,168.5,5.94176342495859,5.94176342495859,0.0,0.216944534679159,0.216944534679159,0.0
+A5,5689,7083,True,False,0,60552,64448,True,False,,,,,,,,,,
+A6,30318,38767,True,True,0,0,125000,True,False,,,,,,,,,,
+A7,26385,32654,True,False,123576,1424,0,True,False,,,,,,,,,,
+A8,14366,17447,False,False,48736,11624,64640,True,True,0.0,9.977157764740833e-07,158.0,205.5,3.1605008582002,3.1605008582002,0.0,1.15436262064503,1.15436262064503,0.0

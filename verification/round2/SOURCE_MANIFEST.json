@@ -1,0 +1,935 @@
+{
+  "files": [
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_evidence_checked/github_upload_candidate/matlab/Homog_TPMS_Visco3.m",
+      "published_path": "matlab/Homog_TPMS_Visco3.m",
+      "original_sha256": "2b59ea67578b32c757a67fd2785ef5f859c58b4cf547be16bbc7519e7c28debe",
+      "published_sha256": "2b59ea67578b32c757a67fd2785ef5f859c58b4cf547be16bbc7519e7c28debe",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_evidence_checked/github_upload_candidate/matlab/entrypoints/calculation_with_hardmaterial.m",
+      "published_path": "matlab/entrypoints/calculation_with_hardmaterial.m",
+      "original_sha256": "be90c2c8218614aef7574a0d83a043032d877e1197f1e8cc4fb202fb7e5dca7f",
+      "published_sha256": "226402f329ddb763cae2693ee0755b7d5bf97b89dfd108cbf493d67a99b75359",
+      "role": "organized retained entry; relative input/output root and overwrite guard; nonfunctional citation-artifact comment removed"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_evidence_checked/github_upload_candidate/matlab/entrypoints/calculation_with_random_input.m",
+      "published_path": "matlab/entrypoints/calculation_with_random_input.m",
+      "original_sha256": "b2f5f1f9bd231d3e60053916bc8110bbd1f26cd65efd62a44f5f4912df38fa9d",
+      "published_sha256": "78f5491d6210e4ceaed1b12cc39aea5aac22949b66695781c5743b2f3427b6f1",
+      "role": "organized retained entry; relative input/output root and overwrite guard; nonfunctional citation-artifact comment removed"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_evidence_checked/github_upload_candidate/matlab/entrypoints/validation_with_random_input.m",
+      "published_path": "matlab/entrypoints/validation_with_random_input.m",
+      "original_sha256": "5abaa7dc6bc27b62b3a8824605739df1183e8c1f564c9f18dc59977978cc0eeb",
+      "published_sha256": "8a327d6c60491b3d3fb4826dcfb8fb18d5a01af2448043f4d6b725de617f8304",
+      "role": "organized retained entry; relative input/output root and overwrite guard; nonfunctional citation-artifact comment removed"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_evidence_checked/github_upload_candidate/matlab/Function_Files/BdryNodes.m",
+      "published_path": "matlab/Function_Files/BdryNodes.m",
+      "original_sha256": "b30891b4495b1436aecbecfc03e44c8087bd23e8e738457366b44c2d5730b512",
+      "published_sha256": "b30891b4495b1436aecbecfc03e44c8087bd23e8e738457366b44c2d5730b512",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_evidence_checked/github_upload_candidate/matlab/Function_Files/dBox.m",
+      "published_path": "matlab/Function_Files/dBox.m",
+      "original_sha256": "86060311987fc725808ede0a03fb2a542f6d8e520d17724297fa722691f69c2d",
+      "published_sha256": "86060311987fc725808ede0a03fb2a542f6d8e520d17724297fa722691f69c2d",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_evidence_checked/github_upload_candidate/matlab/Function_Files/dDiff.m",
+      "published_path": "matlab/Function_Files/dDiff.m",
+      "original_sha256": "17265d01098c4c490d33a4881ceca43bd77644a75a86fae521b220054e83291d",
+      "published_sha256": "17265d01098c4c490d33a4881ceca43bd77644a75a86fae521b220054e83291d",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_evidence_checked/github_upload_candidate/matlab/Function_Files/HomogTensor3D.m",
+      "published_path": "matlab/Function_Files/HomogTensor3D.m",
+      "original_sha256": "a9fcbf8589842b11922a5f94f07739db1e93a1133de1ff674d33399152910fe8",
+      "published_sha256": "a9fcbf8589842b11922a5f94f07739db1e93a1133de1ff674d33399152910fe8",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_evidence_checked/github_upload_candidate/matlab/Function_Files/MatIntFnc.m",
+      "published_path": "matlab/Function_Files/MatIntFnc.m",
+      "original_sha256": "4d86576d9825921e0abc00faa6c3e4414c649a9df1691c7dc1501d841226166f",
+      "published_sha256": "4d86576d9825921e0abc00faa6c3e4414c649a9df1691c7dc1501d841226166f",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_evidence_checked/github_upload_candidate/matlab/Function_Files/MultiMatIntFncVisc.m",
+      "published_path": "matlab/Function_Files/MultiMatIntFncVisc.m",
+      "original_sha256": "563e5b11a15390fec4b0b4402b5d5d65172e2a673fcf5c4b3d5cdca451733b92",
+      "published_sha256": "563e5b11a15390fec4b0b4402b5d5d65172e2a673fcf5c4b3d5cdca451733b92",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_evidence_checked/github_upload_candidate/matlab/Function_Files/MultiMatTPMS.m",
+      "published_path": "matlab/Function_Files/MultiMatTPMS.m",
+      "original_sha256": "15874c08be4d93cab0a81aa8ed2273d2c324dc0fbf94ccfadb864a7ca8027ddc",
+      "published_sha256": "15874c08be4d93cab0a81aa8ed2273d2c324dc0fbf94ccfadb864a7ca8027ddc",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_evidence_checked/github_upload_candidate/matlab/Function_Files/PeriodicFEA_3D.m",
+      "published_path": "matlab/Function_Files/PeriodicFEA_3D.m",
+      "original_sha256": "66245b8633525b87b3d9261f5cceeaaeb966ba54599fe6282e2d554677591a28",
+      "published_sha256": "66245b8633525b87b3d9261f5cceeaaeb966ba54599fe6282e2d554677591a28",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_evidence_checked/github_upload_candidate/matlab/Function_Files/PreComputationViscoRegular_3D.m",
+      "published_path": "matlab/Function_Files/PreComputationViscoRegular_3D.m",
+      "original_sha256": "a5e31a596e762e4c435b85d780402ea1ee0b340227d36f42e1c94dc475454593",
+      "published_sha256": "a5e31a596e762e4c435b85d780402ea1ee0b340227d36f42e1c94dc475454593",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_evidence_checked/github_upload_candidate/matlab/Function_Files/RegMesher.m",
+      "published_path": "matlab/Function_Files/RegMesher.m",
+      "original_sha256": "9af9be28d6125b860a712a76a4b6d6f450c4e0955f5d07f0898bf9af0261e71c",
+      "published_sha256": "9af9be28d6125b860a712a76a4b6d6f450c4e0955f5d07f0898bf9af0261e71c",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_evidence_checked/github_upload_candidate/matlab/Function_Files/ReportTime.m",
+      "published_path": "matlab/Function_Files/ReportTime.m",
+      "original_sha256": "52aecf7249cd9c016a8b17e6d67aa0bd04f74b0c6cba74c12eb6bd1bbeb11fe5",
+      "published_sha256": "52aecf7249cd9c016a8b17e6d67aa0bd04f74b0c6cba74c12eb6bd1bbeb11fe5",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_evidence_checked/github_upload_candidate/matlab/Function_Files/UnitCell.m",
+      "published_path": "matlab/Function_Files/UnitCell.m",
+      "original_sha256": "9f873c5b7e3a07f388ab7598c50b98d371a9a3e1a9253bbd894eeeee05a3af5f",
+      "published_sha256": "9f873c5b7e3a07f388ab7598c50b98d371a9a3e1a9253bbd894eeeee05a3af5f",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_final_fig3/matlab_check/solver/Function_Files/PeriodicFEA_3D.m",
+      "published_path": "matlab/diagnostics/PeriodicFEA_3D.m",
+      "original_sha256": "87010631ed31c40fc97457c8973fb1dac03b151fb54a94958284e571215f097b",
+      "published_sha256": "87010631ed31c40fc97457c8973fb1dac03b151fb54a94958284e571215f097b",
+      "role": "diagnostic-only overlay used in completed checks; numerical call arguments unchanged",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/diagnostic_instrumentation.diff",
+      "published_path": "matlab/diagnostics/INSTRUMENTATION.patch",
+      "original_sha256": "e095fc3b9cb25c6d2440f078ff73b543d53e16278c3065541ae01b5b089c1ce6",
+      "published_sha256": "e095fc3b9cb25c6d2440f078ff73b543d53e16278c3065541ae01b5b089c1ce6",
+      "role": "retained source/result",
+      "portable_text_copy": true,
+      "text_copy_changes": "Machine-path redaction and UTF-8/newline normalization only; numerical values unchanged"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_evidence_checked/tables/synthetic_fixed_inputs.csv",
+      "published_path": "verification/round2/augmentation_label_check/inputs.csv",
+      "original_sha256": "4aa079072ee006178a443b9eb5c9b9f021e8e543d4b4293888c17d6f39ff00dd",
+      "published_sha256": "4aa079072ee006178a443b9eb5c9b9f021e8e543d4b4293888c17d6f39ff00dd",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_evidence_checked/tables/synthetic_label_checks.csv",
+      "published_path": "verification/round2/augmentation_label_check/results.csv",
+      "original_sha256": "e8b61eea2af7a399d43d51360c5f35982a3ffbea79f1c5a22f5057c7583d6eea",
+      "published_sha256": "e8b61eea2af7a399d43d51360c5f35982a3ffbea79f1c5a22f5057c7583d6eea",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_evidence_checked/tables/synthetic_label_summary.csv",
+      "published_path": "verification/round2/augmentation_label_check/summary.csv",
+      "original_sha256": "f84dd0bfd723e6a984fee6d8f63de5dd37e931dd95a0262474a30046316af7f4",
+      "published_sha256": "f84dd0bfd723e6a984fee6d8f63de5dd37e931dd95a0262474a30046316af7f4",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/tables/synthetic_input_solver_audit.csv",
+      "published_path": "verification/round2/augmentation_label_check/input_solver_audit.csv",
+      "original_sha256": "4c5196cdebde68c4699ce2bc466b1abf9f023f4b3521815c5d62ee3001871b68",
+      "published_sha256": "4c5196cdebde68c4699ce2bc466b1abf9f023f4b3521815c5d62ee3001871b68",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/synthetic_geometry_check.csv",
+      "published_path": "verification/round2/augmentation_label_check/material_assignments.csv",
+      "original_sha256": "7749aa7f9143fc95ade2a98e5eed2137bfcfa0da4f8b65c0f2dc853fb6fa6ca1",
+      "published_sha256": "7749aa7f9143fc95ade2a98e5eed2137bfcfa0da4f8b65c0f2dc853fb6fa6ca1",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "code/data/TrainingData.xlsx",
+      "published_path": "verification/round2/reference_data/TrainingData.xlsx",
+      "original_sha256": "19e13a5ddac84effefb3f902aa1e5b56910a61bdfe5b564fcd2ce892f0460932",
+      "published_sha256": "19e13a5ddac84effefb3f902aa1e5b56910a61bdfe5b564fcd2ce892f0460932",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_evidence_checked/analysis/membership_summary.json",
+      "published_path": "verification/round2/augmentation_label_check/database_membership_summary.json",
+      "original_sha256": "f943b4156c72038b1497c85002f12eef45e414a88d5f037b7bdeb82cd090669d",
+      "published_sha256": "f943b4156c72038b1497c85002f12eef45e414a88d5f037b7bdeb82cd090669d",
+      "role": "retained source/result",
+      "portable_text_copy": true,
+      "text_copy_changes": "Machine-path redaction and UTF-8/newline normalization only; numerical values unchanged"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_evidence_checked/analysis/data_scaler_audit.json",
+      "published_path": "verification/round2/normalization_audit.json",
+      "original_sha256": "30a47cebc8acfd337d8ba4086f889f77fb3e18f6d738752604afc2a71ae47f38",
+      "published_sha256": "1b1259c660cc8620df030e00f58783d015cb2cdf61e7b6ecd90e879ccf3484e8",
+      "role": "retained source/result",
+      "portable_text_copy": true,
+      "text_copy_changes": "Machine-path redaction and UTF-8/newline normalization only; numerical values unchanged"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_final_fig3/tables/target_error_summary.csv",
+      "published_path": "verification/round2/inverse_design/summary.csv",
+      "original_sha256": "15a95fae1d876ee8887825a194590c1dfd2eb08ccf88b573d9c5d0917d90b21f",
+      "published_sha256": "15a95fae1d876ee8887825a194590c1dfd2eb08ccf88b573d9c5d0917d90b21f",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_final_fig3/tables/S3_h_archived_record.csv",
+      "published_path": "verification/round2/inverse_design/unpaired_components.csv",
+      "original_sha256": "b8ec63c8c9be5d6bf5832f0717f62cdac0d1dbe297f98e1173a365257206eb60",
+      "published_sha256": "b8ec63c8c9be5d6bf5832f0717f62cdac0d1dbe297f98e1173a365257206eb60",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_final_fig3/tables/new_calculation_changes.csv",
+      "published_path": "verification/round2/inverse_design/S3_b_c_g_correction_record.csv",
+      "original_sha256": "533f8189ce46262b986982ae0a54a87d13a020a52c6b2d56819d9badb75ff452",
+      "published_sha256": "533f8189ce46262b986982ae0a54a87d13a020a52c6b2d56819d9badb75ff452",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "code/data/val_result_new_all_backup.xlsx",
+      "published_path": "verification/round2/source_records/val_result_new_all_backup.xlsx",
+      "original_sha256": "a68ad51ba584421d6a2ae68c01b78fdea318045155c4dfe22b031130230cbcd8",
+      "published_sha256": "a68ad51ba584421d6a2ae68c01b78fdea318045155c4dfe22b031130230cbcd8",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "code/data/val_result_defined_target.xlsx",
+      "published_path": "verification/round2/source_records/val_result_defined_target.xlsx",
+      "original_sha256": "b363a32bb745cb5da6a14f732c629f3bb950a6d6326b6a2919f944d791003c1c",
+      "published_sha256": "b363a32bb745cb5da6a14f732c629f3bb950a6d6326b6a2919f944d791003c1c",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "code/data/val_result.xlsx",
+      "published_path": "verification/round2/source_records/val_result.xlsx",
+      "original_sha256": "e147a6f844d7f7598f04fc277453974a3eae09637f6942b86c89f40568550d46",
+      "published_sha256": "e147a6f844d7f7598f04fc277453974a3eae09637f6942b86c89f40568550d46",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "code/data/independent_hard_test_prediction_soft_hard.xlsx",
+      "published_path": "verification/round2/source_records/independent_hard_test_prediction_soft_hard.xlsx",
+      "original_sha256": "631a5aef7f47a02c2179bffa5745b6faaecb044df9f02e96a956c9203509b62c",
+      "published_sha256": "631a5aef7f47a02c2179bffa5745b6faaecb044df9f02e96a956c9203509b62c",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "code/data/independent_hard_selected15_prediction_soft_hard.xlsx",
+      "published_path": "verification/round2/source_records/independent_hard_selected15_prediction_soft_hard.xlsx",
+      "original_sha256": "1c3d471eee6e863d277d9bb6b9f8c7e2d223880606b5ffd6c6b08ee2ae93891e",
+      "published_sha256": "1c3d471eee6e863d277d9bb6b9f8c7e2d223880606b5ffd6c6b08ee2ae93891e",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_evidence_checked/matlab_check/synthetic_single.csv",
+      "published_path": "verification/round2/logs/augmentation_original/synthetic_single.csv",
+      "original_sha256": "8aa8a2ff0b3fbc686c6d0e10df40c604e842dd2b28e064361ba21427dde3c5a8",
+      "published_sha256": "8aa8a2ff0b3fbc686c6d0e10df40c604e842dd2b28e064361ba21427dde3c5a8",
+      "role": "retained source/result",
+      "portable_text_copy": true,
+      "text_copy_changes": "Machine-path redaction and UTF-8/newline normalization only; numerical values unchanged"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_evidence_checked/matlab_check/synthetic_remaining.csv",
+      "published_path": "verification/round2/logs/augmentation_original/synthetic_remaining.csv",
+      "original_sha256": "e8a023b2c8029cb208f09eba3ed8137846e76a30aed5d154d27a0e63eec07444",
+      "published_sha256": "e8a023b2c8029cb208f09eba3ed8137846e76a30aed5d154d27a0e63eec07444",
+      "role": "retained source/result",
+      "portable_text_copy": true,
+      "text_copy_changes": "Machine-path redaction and UTF-8/newline normalization only; numerical values unchanged"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_evidence_checked/matlab_check/synthetic_soft.csv",
+      "published_path": "verification/round2/logs/augmentation_original/synthetic_soft.csv",
+      "original_sha256": "706b5965ceee0476e17832cc67668c07d924a6e30ec056b40d0e60a3cf59ca90",
+      "published_sha256": "02c3b57108b4f8143800c4e1ffd48d38ec156d7b59e2ece965fb95ada9ac4177",
+      "role": "retained source/result",
+      "portable_text_copy": true,
+      "text_copy_changes": "Machine-path redaction and UTF-8/newline normalization only; numerical values unchanged"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_evidence_checked/matlab_check/run_single.log",
+      "published_path": "verification/round2/logs/augmentation_original/run_single.log",
+      "original_sha256": "0064709598faf812dfa461cf3555022ae56baf54c1de6e19d9abe19d1fbe84fc",
+      "published_sha256": "33b81aa91795883e27403135ecbb079470413a94822b35237a36ec138eb0edf0",
+      "role": "retained source/result",
+      "portable_text_copy": true,
+      "text_copy_changes": "Machine-path redaction and UTF-8/newline normalization only; numerical values unchanged"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_evidence_checked/matlab_check/run_remaining.log",
+      "published_path": "verification/round2/logs/augmentation_original/run_remaining.log",
+      "original_sha256": "6b1fabed7fac0751c9e3385e848bc2add6bfca646c2a83821ef2f6db79df77e9",
+      "published_sha256": "4688a0b46aff403c891af3b43be701ff04bae721fa260c2e497cb91edfc1b3ab",
+      "role": "retained source/result",
+      "portable_text_copy": true,
+      "text_copy_changes": "Machine-path redaction and UTF-8/newline normalization only; numerical values unchanged"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_evidence_checked/matlab_check/run_soft.log",
+      "published_path": "verification/round2/logs/augmentation_original/run_soft.log",
+      "original_sha256": "0ba0c1857bb1ded684f42e16670a65029025b5d6a08184e1d61092b5f824b803",
+      "published_sha256": "7f197a34a27ef9e78ab74f2890df569a989836e3f90720d7ae9aa1df294f61dc",
+      "role": "retained source/result",
+      "portable_text_copy": true,
+      "text_copy_changes": "Machine-path redaction and UTF-8/newline normalization only; numerical values unchanged"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/diagnostic_calculations.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/diagnostic_calculations.csv",
+      "original_sha256": "4a8a1e017b73f39faeb43de8f5f35e679ce9a01d603dbaa6da4385d9895ae836",
+      "published_sha256": "4a8a1e017b73f39faeb43de8f5f35e679ce9a01d603dbaa6da4385d9895ae836",
+      "role": "retained source/result",
+      "portable_text_copy": true,
+      "text_copy_changes": "Machine-path redaction and UTF-8/newline normalization only; numerical values unchanged"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/solver_diagnostics.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/solver_diagnostics.csv",
+      "original_sha256": "4cea07fef178eb3994fb68844bac3bf42d5a460339c5cd169d4cefe08c380d89",
+      "published_sha256": "0645c215c30e70c5bb47fea4d07ce1dea3c5bac5eb44f866e3f1b772bc1fb6b2",
+      "role": "retained source/result",
+      "portable_text_copy": true,
+      "text_copy_changes": "Machine-path redaction and UTF-8/newline normalization only; numerical values unchanged"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/diagnostic_run.log",
+      "published_path": "verification/round2/logs/diagnostic_replays/diagnostic_run.log",
+      "original_sha256": "87339c4a01a01c196642c318a1f025e4e455866a3913394e296de52f83576a2b",
+      "published_sha256": "aaf8b9903be19ba527089867c9d86f7274e3bfe16dcfd886a9bf81c9f1899dfe",
+      "role": "retained source/result",
+      "portable_text_copy": true,
+      "text_copy_changes": "Machine-path redaction and UTF-8/newline normalization only; numerical values unchanged"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_A1_load1.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_A1_load1.csv",
+      "original_sha256": "17547f57d705038cac2bd4d5fbdae82e1b9262f0df42782a5015946bdbb6d8b9",
+      "published_sha256": "17547f57d705038cac2bd4d5fbdae82e1b9262f0df42782a5015946bdbb6d8b9",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_A1_load2.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_A1_load2.csv",
+      "original_sha256": "cdaee25ac6e8ea6f535ae429e8d0918e99702c75679fce04560098da6f90110c",
+      "published_sha256": "cdaee25ac6e8ea6f535ae429e8d0918e99702c75679fce04560098da6f90110c",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_A1_load3.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_A1_load3.csv",
+      "original_sha256": "03b64f1659b96a4d0f46be524f83d6e0f2ac4af109699708115a0dc6e871ac2b",
+      "published_sha256": "03b64f1659b96a4d0f46be524f83d6e0f2ac4af109699708115a0dc6e871ac2b",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_A1_load4.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_A1_load4.csv",
+      "original_sha256": "080355a11370c8655061c6c742d9e9b2b2615c5dc7656a4856953c02b26a9ecc",
+      "published_sha256": "080355a11370c8655061c6c742d9e9b2b2615c5dc7656a4856953c02b26a9ecc",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_A1_load5.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_A1_load5.csv",
+      "original_sha256": "428fbd73bd99f9febbe41593c8dac1a4ecdf95d1d194dc6663a5e99f90282a06",
+      "published_sha256": "428fbd73bd99f9febbe41593c8dac1a4ecdf95d1d194dc6663a5e99f90282a06",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_A1_load6.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_A1_load6.csv",
+      "original_sha256": "fb2d5b071d244e47834f089ba5ff87e738ab2a79a8e3a737e4a2b174b7d6d217",
+      "published_sha256": "fb2d5b071d244e47834f089ba5ff87e738ab2a79a8e3a737e4a2b174b7d6d217",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_A3_load1.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_A3_load1.csv",
+      "original_sha256": "7f27cc98446059187c8d40002549e2713083020fd96eb46c5ea9726cc792cdba",
+      "published_sha256": "7f27cc98446059187c8d40002549e2713083020fd96eb46c5ea9726cc792cdba",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_A3_load2.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_A3_load2.csv",
+      "original_sha256": "ecf1292a969379c2b20af787dc97369d80123aab87d6b533ba85807683315518",
+      "published_sha256": "ecf1292a969379c2b20af787dc97369d80123aab87d6b533ba85807683315518",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_A3_load3.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_A3_load3.csv",
+      "original_sha256": "b98a1909708eca9a20646f8ac6ce09c26a5be1260f4784b72fd4576e067368a2",
+      "published_sha256": "b98a1909708eca9a20646f8ac6ce09c26a5be1260f4784b72fd4576e067368a2",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_A3_load4.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_A3_load4.csv",
+      "original_sha256": "34744e68c825c1726dd73ef77cdcda3587854bdfcea23e36f01ddf472470601b",
+      "published_sha256": "34744e68c825c1726dd73ef77cdcda3587854bdfcea23e36f01ddf472470601b",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_A3_load5.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_A3_load5.csv",
+      "original_sha256": "23e26bd363e58e4d88afc2484388a514be135454abe162deba2394c00a5d0e3a",
+      "published_sha256": "23e26bd363e58e4d88afc2484388a514be135454abe162deba2394c00a5d0e3a",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_A3_load6.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_A3_load6.csv",
+      "original_sha256": "d2c78fc7b26b0c9395ce03312f450018b9bafcf39f4444206bec106ffe9f0615",
+      "published_sha256": "d2c78fc7b26b0c9395ce03312f450018b9bafcf39f4444206bec106ffe9f0615",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_A4_load1.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_A4_load1.csv",
+      "original_sha256": "64a1f301cd32a581b04bfc8d3ba79a0b784a741f5951ec9dda404243bcd54968",
+      "published_sha256": "64a1f301cd32a581b04bfc8d3ba79a0b784a741f5951ec9dda404243bcd54968",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_A4_load2.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_A4_load2.csv",
+      "original_sha256": "f8966065b0c9be81770e6b1fa91c50a2c7d3e24d8cd50041f7e0f0f82d72e992",
+      "published_sha256": "f8966065b0c9be81770e6b1fa91c50a2c7d3e24d8cd50041f7e0f0f82d72e992",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_A4_load3.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_A4_load3.csv",
+      "original_sha256": "d3c46034c1674591cd5e425be2fc0f26e66e70ad02fe50f4d212f4b88b8aa8d2",
+      "published_sha256": "d3c46034c1674591cd5e425be2fc0f26e66e70ad02fe50f4d212f4b88b8aa8d2",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_A4_load4.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_A4_load4.csv",
+      "original_sha256": "4384b8a9fa56b08dd3b61c2ded18b936767b2d55980710b2bd7fdb89536d2329",
+      "published_sha256": "4384b8a9fa56b08dd3b61c2ded18b936767b2d55980710b2bd7fdb89536d2329",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_A4_load5.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_A4_load5.csv",
+      "original_sha256": "02698b33a19d1b5c1d0f396d73b22026f67ffa663fe275b97d24996f90d33253",
+      "published_sha256": "02698b33a19d1b5c1d0f396d73b22026f67ffa663fe275b97d24996f90d33253",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_A4_load6.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_A4_load6.csv",
+      "original_sha256": "534ab01a9745442c8e77440246b6fab7cd741e286401e702c5b42a22a7cfabe2",
+      "published_sha256": "534ab01a9745442c8e77440246b6fab7cd741e286401e702c5b42a22a7cfabe2",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_A8_load1.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_A8_load1.csv",
+      "original_sha256": "a64e04dc2df360c316722eecea11ad0dad7d4c7ba33b8c8a0c9fd51dd30484a1",
+      "published_sha256": "a64e04dc2df360c316722eecea11ad0dad7d4c7ba33b8c8a0c9fd51dd30484a1",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_A8_load2.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_A8_load2.csv",
+      "original_sha256": "b47c9214cde010de5570f34069f6ce1fb0959922b631c174996136dbd57ddd23",
+      "published_sha256": "b47c9214cde010de5570f34069f6ce1fb0959922b631c174996136dbd57ddd23",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_A8_load3.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_A8_load3.csv",
+      "original_sha256": "cf65a2f31af0f09835db220a05b70c0b4dc99aaf60c9b8ca89cac7bf66ca6d55",
+      "published_sha256": "cf65a2f31af0f09835db220a05b70c0b4dc99aaf60c9b8ca89cac7bf66ca6d55",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_A8_load4.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_A8_load4.csv",
+      "original_sha256": "ff51dc0b8657767e32cca4ff44e987d36bc6c17807cfa64ca43a7a4e4151b6ae",
+      "published_sha256": "ff51dc0b8657767e32cca4ff44e987d36bc6c17807cfa64ca43a7a4e4151b6ae",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_A8_load5.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_A8_load5.csv",
+      "original_sha256": "dfff075224349f61689cc6f8ceee97c365fe774b99a84d23d670a037cc6efa32",
+      "published_sha256": "dfff075224349f61689cc6f8ceee97c365fe774b99a84d23d670a037cc6efa32",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_A8_load6.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_A8_load6.csv",
+      "original_sha256": "2f98d3ca930bca8d2d28fc2721d85d197767171bd3f08526d25a4eca56ad068d",
+      "published_sha256": "2f98d3ca930bca8d2d28fc2721d85d197767171bd3f08526d25a4eca56ad068d",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_H2_load1.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_H2_load1.csv",
+      "original_sha256": "25da90a70df3460a93c4e2928d0d0b7a2fe4a985722fab3d06406ca56fb1965d",
+      "published_sha256": "25da90a70df3460a93c4e2928d0d0b7a2fe4a985722fab3d06406ca56fb1965d",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_H2_load2.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_H2_load2.csv",
+      "original_sha256": "2a670faff6d937c8e1ba843f15951ef3a691407a1782d1bfa462fdb3697838cd",
+      "published_sha256": "2a670faff6d937c8e1ba843f15951ef3a691407a1782d1bfa462fdb3697838cd",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_H2_load3.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_H2_load3.csv",
+      "original_sha256": "d4a9ad857c4594fa7724e03105faa8a5d8de142f25cf7acaf8c5244b4a1f2f24",
+      "published_sha256": "d4a9ad857c4594fa7724e03105faa8a5d8de142f25cf7acaf8c5244b4a1f2f24",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_H2_load4.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_H2_load4.csv",
+      "original_sha256": "c46c3e37a064e087c57b67c114a928f5da6e69175cade01e9cadf0d2fff9fca4",
+      "published_sha256": "c46c3e37a064e087c57b67c114a928f5da6e69175cade01e9cadf0d2fff9fca4",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_H2_load5.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_H2_load5.csv",
+      "original_sha256": "87b7416c1f2ea71e79d415aeefee12c0f95657006ce80b6e7169e2e4d2ebc9b1",
+      "published_sha256": "87b7416c1f2ea71e79d415aeefee12c0f95657006ce80b6e7169e2e4d2ebc9b1",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_H2_load6.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_H2_load6.csv",
+      "original_sha256": "50e323d47a5346cad9cc03055c19eba7099c1614564f771084e78bb94aadbfd6",
+      "published_sha256": "50e323d47a5346cad9cc03055c19eba7099c1614564f771084e78bb94aadbfd6",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_S3-a_load1.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_S3-a_load1.csv",
+      "original_sha256": "ce44e26432ab24cd04f4ccb47cd984a2cff9b9e10bfc6be78ee856f98563388f",
+      "published_sha256": "ce44e26432ab24cd04f4ccb47cd984a2cff9b9e10bfc6be78ee856f98563388f",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_S3-a_load2.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_S3-a_load2.csv",
+      "original_sha256": "ad4aa8f1f8181b8d3a9ae03f227fd778163f8454a7e036902d72c6f1e2fb451e",
+      "published_sha256": "ad4aa8f1f8181b8d3a9ae03f227fd778163f8454a7e036902d72c6f1e2fb451e",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_S3-a_load3.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_S3-a_load3.csv",
+      "original_sha256": "5683782397af1d97af75397c5a5bcd7ee87d20b3d678a28e2ed3e9ffa6707f8d",
+      "published_sha256": "5683782397af1d97af75397c5a5bcd7ee87d20b3d678a28e2ed3e9ffa6707f8d",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_S3-a_load4.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_S3-a_load4.csv",
+      "original_sha256": "b2a42db1280cb1322e76d63c1b963f29ed46156376fc10ef293197b8e3e50b50",
+      "published_sha256": "b2a42db1280cb1322e76d63c1b963f29ed46156376fc10ef293197b8e3e50b50",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_S3-a_load5.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_S3-a_load5.csv",
+      "original_sha256": "d2196e0cf8dcc68ae41500890d666868f7e0158f9d7e3dd4eeac00de74b61218",
+      "published_sha256": "d2196e0cf8dcc68ae41500890d666868f7e0158f9d7e3dd4eeac00de74b61218",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_target_solver_audit/matlab_check/residual_S3-a_load6.csv",
+      "published_path": "verification/round2/logs/diagnostic_replays/residual_S3-a_load6.csv",
+      "original_sha256": "8e6fcc05a0ba458ca7b992ee2c981cc2489e72969b3a23a5f68155a6934ed3d8",
+      "published_sha256": "8e6fcc05a0ba458ca7b992ee2c981cc2489e72969b3a23a5f68155a6934ed3d8",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_final_fig3/matlab_check/diagnostic_calculations.csv",
+      "published_path": "verification/round2/logs/fixed_candidates/diagnostic_calculations.csv",
+      "original_sha256": "fe72b36210509cd8432e0d2b4e0510284e7e86907af81ff09f2e53c17cf01794",
+      "published_sha256": "fe72b36210509cd8432e0d2b4e0510284e7e86907af81ff09f2e53c17cf01794",
+      "role": "retained source/result",
+      "portable_text_copy": true,
+      "text_copy_changes": "Machine-path redaction and UTF-8/newline normalization only; numerical values unchanged"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_final_fig3/matlab_check/solver_diagnostics.csv",
+      "published_path": "verification/round2/logs/fixed_candidates/solver_diagnostics.csv",
+      "original_sha256": "109e2f5403660f78517605619394e572c8f8a73d24c6b66687a2f5a5c464f7fe",
+      "published_sha256": "982bf3bd417e6e7c417a5888e4e8b55494cbd25cbfc29467926a75ca4e5066ed",
+      "role": "retained source/result",
+      "portable_text_copy": true,
+      "text_copy_changes": "Machine-path redaction and UTF-8/newline normalization only; numerical values unchanged"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_final_fig3/matlab_check/diagnostic_run.log",
+      "published_path": "verification/round2/logs/fixed_candidates/diagnostic_run.log",
+      "original_sha256": "d8f5afb5be86913d39e77a314fc86c5afd0d90f4a1296258f6106a577bec4014",
+      "published_sha256": "7c22b97916aa9baeaa118069e38627fbdbaaf1c34d956124de788249229e2efb",
+      "role": "retained source/result",
+      "portable_text_copy": true,
+      "text_copy_changes": "Machine-path redaction and UTF-8/newline normalization only; numerical values unchanged"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_final_fig3/matlab_check/residual_S3-b_load1.csv",
+      "published_path": "verification/round2/logs/fixed_candidates/residual_S3-b_load1.csv",
+      "original_sha256": "fa1d77bf9fc7433a63a612ce342fff6879f860c488ad9656c754df951d0436d3",
+      "published_sha256": "fa1d77bf9fc7433a63a612ce342fff6879f860c488ad9656c754df951d0436d3",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_final_fig3/matlab_check/residual_S3-b_load2.csv",
+      "published_path": "verification/round2/logs/fixed_candidates/residual_S3-b_load2.csv",
+      "original_sha256": "541c5fff4f4f2a32e5ab32260ad944decd24079398700a7488af82c86d643180",
+      "published_sha256": "541c5fff4f4f2a32e5ab32260ad944decd24079398700a7488af82c86d643180",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_final_fig3/matlab_check/residual_S3-b_load3.csv",
+      "published_path": "verification/round2/logs/fixed_candidates/residual_S3-b_load3.csv",
+      "original_sha256": "ea722b51f5892077304cce2e2ecc7946c8647c3e3eb86ea91a3ec13abf07a5c8",
+      "published_sha256": "ea722b51f5892077304cce2e2ecc7946c8647c3e3eb86ea91a3ec13abf07a5c8",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_final_fig3/matlab_check/residual_S3-b_load4.csv",
+      "published_path": "verification/round2/logs/fixed_candidates/residual_S3-b_load4.csv",
+      "original_sha256": "1e3d2e1efe70bb1f1c69542f171e2c24c0dfaa85bf3cbd844325f2124449e1d8",
+      "published_sha256": "1e3d2e1efe70bb1f1c69542f171e2c24c0dfaa85bf3cbd844325f2124449e1d8",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_final_fig3/matlab_check/residual_S3-b_load5.csv",
+      "published_path": "verification/round2/logs/fixed_candidates/residual_S3-b_load5.csv",
+      "original_sha256": "00e983671a50270ab1c2822f7036ffe47cdb2f10af03566d3cbe3c82856f1e20",
+      "published_sha256": "00e983671a50270ab1c2822f7036ffe47cdb2f10af03566d3cbe3c82856f1e20",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_final_fig3/matlab_check/residual_S3-b_load6.csv",
+      "published_path": "verification/round2/logs/fixed_candidates/residual_S3-b_load6.csv",
+      "original_sha256": "7a9329809e06780d2397a1155639d9ff952d63ee1936fbab200af9fd87b73aca",
+      "published_sha256": "7a9329809e06780d2397a1155639d9ff952d63ee1936fbab200af9fd87b73aca",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_final_fig3/matlab_check/residual_S3-c_load1.csv",
+      "published_path": "verification/round2/logs/fixed_candidates/residual_S3-c_load1.csv",
+      "original_sha256": "0aabc1d00330f4543c4462f20f9c338a3926710fe70880a7a997b8f9014a4be2",
+      "published_sha256": "0aabc1d00330f4543c4462f20f9c338a3926710fe70880a7a997b8f9014a4be2",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_final_fig3/matlab_check/residual_S3-c_load2.csv",
+      "published_path": "verification/round2/logs/fixed_candidates/residual_S3-c_load2.csv",
+      "original_sha256": "b8a1cd8c23223548efc643b971883c24d553a1edf3b2a37906cc91b12c3db862",
+      "published_sha256": "b8a1cd8c23223548efc643b971883c24d553a1edf3b2a37906cc91b12c3db862",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_final_fig3/matlab_check/residual_S3-c_load3.csv",
+      "published_path": "verification/round2/logs/fixed_candidates/residual_S3-c_load3.csv",
+      "original_sha256": "2d68cc9084cc9bf7fe1eeca0aaa25eb2721daa3760f3ae51856db94c59e789ef",
+      "published_sha256": "2d68cc9084cc9bf7fe1eeca0aaa25eb2721daa3760f3ae51856db94c59e789ef",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_final_fig3/matlab_check/residual_S3-c_load4.csv",
+      "published_path": "verification/round2/logs/fixed_candidates/residual_S3-c_load4.csv",
+      "original_sha256": "cec878063f353074fb44d0d3758f68b055e8e084e850843198d8459ecdb56daa",
+      "published_sha256": "cec878063f353074fb44d0d3758f68b055e8e084e850843198d8459ecdb56daa",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_final_fig3/matlab_check/residual_S3-c_load5.csv",
+      "published_path": "verification/round2/logs/fixed_candidates/residual_S3-c_load5.csv",
+      "original_sha256": "be054b335e3fb94bb48a35010b6b1a8bf296c1cb4db27b96404fc914545674b1",
+      "published_sha256": "be054b335e3fb94bb48a35010b6b1a8bf296c1cb4db27b96404fc914545674b1",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_final_fig3/matlab_check/residual_S3-c_load6.csv",
+      "published_path": "verification/round2/logs/fixed_candidates/residual_S3-c_load6.csv",
+      "original_sha256": "f7974a505e9143c2ad5b67f000658dd6bd2c3facc86084cdac75a50a3ff659a8",
+      "published_sha256": "f7974a505e9143c2ad5b67f000658dd6bd2c3facc86084cdac75a50a3ff659a8",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_final_fig3/matlab_check/residual_S3-g_load1.csv",
+      "published_path": "verification/round2/logs/fixed_candidates/residual_S3-g_load1.csv",
+      "original_sha256": "54fe8f4bc3deca2a55f9a26186cc27f62b51cc53e9ed7e402af0d70fbbdcc00f",
+      "published_sha256": "54fe8f4bc3deca2a55f9a26186cc27f62b51cc53e9ed7e402af0d70fbbdcc00f",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_final_fig3/matlab_check/residual_S3-g_load2.csv",
+      "published_path": "verification/round2/logs/fixed_candidates/residual_S3-g_load2.csv",
+      "original_sha256": "e97271387842aec5f16b155ebc34a7ff7e1c7f0f43db9df136c679e98c3c5b5f",
+      "published_sha256": "e97271387842aec5f16b155ebc34a7ff7e1c7f0f43db9df136c679e98c3c5b5f",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_final_fig3/matlab_check/residual_S3-g_load3.csv",
+      "published_path": "verification/round2/logs/fixed_candidates/residual_S3-g_load3.csv",
+      "original_sha256": "cac31b0197aeaca2f400094d0c47b149c2c2d73030ee6d4936b732d0b4f67954",
+      "published_sha256": "cac31b0197aeaca2f400094d0c47b149c2c2d73030ee6d4936b732d0b4f67954",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_final_fig3/matlab_check/residual_S3-g_load4.csv",
+      "published_path": "verification/round2/logs/fixed_candidates/residual_S3-g_load4.csv",
+      "original_sha256": "d904d7eb8cd775b33755749cf8523aaf80df8389b4ea589ebbb5539edc5a3c06",
+      "published_sha256": "d904d7eb8cd775b33755749cf8523aaf80df8389b4ea589ebbb5539edc5a3c06",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_final_fig3/matlab_check/residual_S3-g_load5.csv",
+      "published_path": "verification/round2/logs/fixed_candidates/residual_S3-g_load5.csv",
+      "original_sha256": "3b4bd14b3f91173138613ea6d9e85a290995ab2ba97fcec5e38dccecdb17c4c4",
+      "published_sha256": "3b4bd14b3f91173138613ea6d9e85a290995ab2ba97fcec5e38dccecdb17c4c4",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_final_fig3/matlab_check/residual_S3-g_load6.csv",
+      "published_path": "verification/round2/logs/fixed_candidates/residual_S3-g_load6.csv",
+      "original_sha256": "3e4e945f33a190f4c3dcbf2872c95617a4de70735621b9570120c8d6257a348c",
+      "published_sha256": "3e4e945f33a190f4c3dcbf2872c95617a4de70735621b9570120c8d6257a348c",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_final_fig3/figures/Figure3_l_o_source.csv",
+      "published_path": "verification/round2/forward_comparison/figure3_l_o_source.csv",
+      "original_sha256": "59af9347d11e22a7f8e761e89f858ea4adbd2decdca16164dedcc19eedde4b56",
+      "published_sha256": "59af9347d11e22a7f8e761e89f858ea4adbd2decdca16164dedcc19eedde4b56",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_final_fig3/figures/figure_edit_record.json",
+      "published_path": "verification/round2/forward_comparison/figure_edit_record.json",
+      "original_sha256": "f2510c2c26db99b0e8e299866972da07bc42a7448bd9502c129fdb1f295c55fb",
+      "published_sha256": "f2510c2c26db99b0e8e299866972da07bc42a7448bd9502c129fdb1f295c55fb",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_final_fig3/tables/Figure3_original_34_row_audit.csv",
+      "published_path": "verification/round2/forward_comparison/original_34_row_audit.csv",
+      "original_sha256": "828a3f5b307e29109b0877b338f8516c3cbe63421fce065509c9e7d61edacaf9",
+      "published_sha256": "828a3f5b307e29109b0877b338f8516c3cbe63421fce065509c9e7d61edacaf9",
+      "role": "retained source/result",
+      "portable_text_copy": true,
+      "text_copy_changes": "Machine-path redaction and UTF-8/newline normalization only; numerical values unchanged"
+    },
+    {
+      "source_project_relative": "review suggestion/2nd revision/revision_round2_final_fig3/tables/Figure3_forward_summary.csv",
+      "published_path": "verification/round2/forward_comparison/summary.csv",
+      "original_sha256": "0a8315968d08ae199efe3d9e6759668696ab3027d17b5ac27607a336cf2100bd",
+      "published_sha256": "0a8315968d08ae199efe3d9e6759668696ab3027d17b5ac27607a336cf2100bd",
+      "role": "retained source/result",
+      "portable_text_copy": false,
+      "text_copy_changes": "None"
+    }
+  ],
+  "notes": "Original headers retained; no blanket license added. Text path redaction changes no scientific numbers. New wrapper/readmes are packaging additions, not historical executed code."
+}

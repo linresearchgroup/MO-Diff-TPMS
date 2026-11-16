@@ -1,0 +1,83 @@
+26.1.0.3251617 (R2026a) Update 2
+PCWIN64
+PROJECT_ROOT\review suggestion\2nd revision\revision_round2_target_solver_audit\matlab_check\solver\Function_Files\PeriodicFEA_3D.m
+Existing CPU Diagonal BiCGSTAB branch
+PRE-CALCULATIONS FINISHED!
+START A1
+DIAGNOSTIC A1 load=1 flag=0 relres=9.49112e-07 true=9.49112e-07 iter=113.0
+DIAGNOSTIC A1 load=2 flag=0 relres=9.80306e-07 true=9.80306e-07 iter=105.5
+DIAGNOSTIC A1 load=3 flag=0 relres=8.46211e-07 true=8.46211e-07 iter=112.5
+DIAGNOSTIC A1 load=4 flag=0 relres=4.72404e-07 true=4.72404e-07 iter=163.5
+DIAGNOSTIC A1 load=5 flag=0 relres=4.25005e-07 true=4.25005e-07 iter=184.5
+DIAGNOSTIC A1 load=6 flag=0 relres=6.26622e-07 true=6.26622e-07 iter=173.5
+Time to compute homogenized complex modulus: 1.9 minutes 
+     Case      Ep1       Ep2       Ep3      Epp1     Epp2     Epp3       t1        t2      Target_storage    Target_loss                  kind                  Calculated_storage    Calculated_loss    Seconds                     Status                 
+    ______    ______    ______    ______    _____    _____    _____    ______    ______    ______________    ___________    ________________________________    __________________    _______________    _______    ________________________________________
+
+    {'A1'}    5.9629    5.5359    2.6058    0.188    1.108    1.972    3.2728    2.8552         NaN              NaN        {'S9 fixed stored training row'}          5.9612              0.18804        111.28     "calculated; inspect solver diagnostics"
+
+START A3
+DIAGNOSTIC A3 load=1 flag=0 relres=9.93489e-07 true=9.93489e-07 iter=106.5
+DIAGNOSTIC A3 load=2 flag=0 relres=6.05661e-07 true=6.05661e-07 iter=107.5
+DIAGNOSTIC A3 load=3 flag=0 relres=9.45162e-07 true=9.45162e-07 iter=122.5
+DIAGNOSTIC A3 load=4 flag=0 relres=5.45111e-07 true=5.45111e-07 iter=162.5
+DIAGNOSTIC A3 load=5 flag=0 relres=9.94496e-07 true=9.94496e-07 iter=162.5
+DIAGNOSTIC A3 load=6 flag=0 relres=8.61276e-07 true=8.61276e-07 iter=172.5
+Time to compute homogenized complex modulus: 1.8 minutes 
+     Case      Ep1       Ep2       Ep3       Epp1      Epp2      Epp3       t1         t2      Target_storage    Target_loss                  kind                  Calculated_storage    Calculated_loss    Seconds                     Status                 
+    ______    ______    ______    ______    ______    ______    ______    _______    ______    ______________    ___________    ________________________________    __________________    _______________    _______    ________________________________________
+
+    {'A3'}    5.9775    5.7509    3.5014    0.1223    0.7617    2.1352    -3.1108    3.0921         NaN              NaN        {'S9 fixed stored training row'}          5.7493              0.76157         106.2     "calculated; inspect solver diagnostics"
+
+START A4
+DIAGNOSTIC A4 load=1 flag=0 relres=9.7702e-07 true=9.7702e-07 iter=142.5
+DIAGNOSTIC A4 load=2 flag=0 relres=9.52864e-07 true=9.52864e-07 iter=129.0
+DIAGNOSTIC A4 load=3 flag=0 relres=9.57542e-07 true=9.57542e-07 iter=134.0
+DIAGNOSTIC A4 load=4 flag=0 relres=9.95684e-07 true=9.95684e-07 iter=156.0
+DIAGNOSTIC A4 load=5 flag=0 relres=8.56362e-07 true=8.56362e-07 iter=168.5
+DIAGNOSTIC A4 load=6 flag=0 relres=9.9009e-07 true=9.9009e-07 iter=157.5
+Time to compute homogenized complex modulus: 2.0 minutes 
+     Case      Ep1       Ep2       Ep3       Epp1      Epp2      Epp3       t1        t2      Target_storage    Target_loss                  kind                  Calculated_storage    Calculated_loss    Seconds                     Status                 
+    ______    ______    ______    ______    ______    ______    ______    ______    ______    ______________    ___________    ________________________________    __________________    _______________    _______    ________________________________________
+
+    {'A4'}    5.9825    5.8182    3.9808    0.0979    0.6202    2.0891    1.0198    2.8048         NaN              NaN        {'S9 fixed stored training row'}          5.9418              0.21694        117.64     "calculated; inspect solver diagnostics"
+
+START A8
+DIAGNOSTIC A8 load=1 flag=0 relres=9.14996e-07 true=9.14996e-07 iter=165.5
+DIAGNOSTIC A8 load=2 flag=0 relres=5.34504e-07 true=5.34504e-07 iter=170.5
+DIAGNOSTIC A8 load=3 flag=0 relres=9.57971e-07 true=9.57971e-07 iter=158.0
+DIAGNOSTIC A8 load=4 flag=0 relres=9.7783e-07 true=9.7783e-07 iter=200.0
+DIAGNOSTIC A8 load=5 flag=0 relres=7.2731e-07 true=7.2731e-07 iter=205.5
+DIAGNOSTIC A8 load=6 flag=0 relres=9.97716e-07 true=9.97716e-07 iter=192.0
+Time to compute homogenized complex modulus: 2.4 minutes 
+     Case      Ep1       Ep2       Ep3       Epp1      Epp2      Epp3        t1          t2        Target_storage    Target_loss                  kind                  Calculated_storage    Calculated_loss    Seconds                     Status                 
+    ______    ______    ______    ______    ______    ______    ______    ________    _________    ______________    ___________    ________________________________    __________________    _______________    _______    ________________________________________
+
+    {'A8'}    5.8941    4.5483    1.5242    0.4255    1.9079    1.1862    -0.37951    -0.057908         NaN              NaN        {'S9 fixed stored training row'}          3.1605              1.1544         143.37     "calculated; inspect solver diagnostics"
+
+START S3-a
+DIAGNOSTIC S3-a load=1 flag=0 relres=8.4996e-07 true=8.4996e-07 iter=173.5
+DIAGNOSTIC S3-a load=2 flag=0 relres=6.50245e-07 true=6.50245e-07 iter=175.5
+DIAGNOSTIC S3-a load=3 flag=0 relres=9.47346e-07 true=9.47346e-07 iter=155.5
+DIAGNOSTIC S3-a load=4 flag=0 relres=7.90481e-07 true=7.90481e-07 iter=191.5
+DIAGNOSTIC S3-a load=5 flag=0 relres=6.46117e-07 true=6.46117e-07 iter=235.5
+DIAGNOSTIC S3-a load=6 flag=0 relres=6.09693e-07 true=6.09693e-07 iter=237.0
+Time to compute homogenized complex modulus: 2.5 minutes 
+      Case       Ep1       Ep2       Ep3       Epp1      Epp2      Epp3       t1         t2      Target_storage    Target_loss              kind              Calculated_storage    Calculated_loss    Seconds                     Status                 
+    ________    ______    ______    ______    ______    ______    ______    _______    ______    ______________    ___________    ________________________    __________________    _______________    _______    ________________________________________
+
+    {'S3-a'}    4.4581    1.4192    1.0387    1.9469    1.0452    0.1945    -1.8906    1.7092        1.5142          1.0458       {'S10 zero-error audit'}          1.5076              1.0051         151.62     "calculated; inspect solver diagnostics"
+
+START H2
+DIAGNOSTIC H2 load=1 flag=0 relres=9.79824e-07 true=9.79824e-07 iter=110.5
+DIAGNOSTIC H2 load=2 flag=0 relres=8.994e-07 true=8.994e-07 iter=106.0
+DIAGNOSTIC H2 load=3 flag=0 relres=9.74306e-07 true=9.74306e-07 iter=130.5
+DIAGNOSTIC H2 load=4 flag=0 relres=7.51669e-07 true=7.51669e-07 iter=163.5
+DIAGNOSTIC H2 load=5 flag=0 relres=1.96307e-07 true=1.96307e-07 iter=143.5
+DIAGNOSTIC H2 load=6 flag=0 relres=3.11133e-07 true=3.11133e-07 iter=173.5
+Time to compute homogenized complex modulus: 1.8 minutes 
+     Case      Ep1       Ep2      Ep3       Epp1       Epp2       Epp3       t1         t2       Target_storage    Target_loss              kind              Calculated_storage    Calculated_loss    Seconds                     Status                 
+    ______    ______    _____    ______    ______    ________    ______    _______    _______    ______________    ___________    ________________________    __________________    _______________    _______    ________________________________________
+
+    {'H2'}    119.44    1.012    119.44    70.501    0.069228    70.501    0.99122    0.75675        119.4            70.48       {'S10 zero-error audit'}          119.4                70.48         106.51     "calculated; inspect solver diagnostics"
+

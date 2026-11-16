@@ -1,0 +1,20 @@
+--- original PeriodicFEA_3D.m
++++ diagnostic-only copy
+@@ -116,7 +116,16 @@
+ %       % Conjugate gradients squared method (slowest)
+ %       [U(:,ii),~] = cgs(K,F(:,ii),fem.tol_pcg,maxiter,D,[],fem.U(:,ii));       
+       % Biconjugate gradients stabilized method (fastest)
+-      [U(:,ii),~] = bicgstab(K,F(:,ii),fem.tol_pcg,maxiter,D,[],fem.U(:,ii));
++      auditTimer=tic;
++      [U(:,ii),auditFlag,auditRelres,auditIter,auditResvec] = bicgstab(K,F(:,ii),fem.tol_pcg,maxiter,D,[],fem.U(:,ii));
++      auditAbs=norm(K*U(:,ii)-F(:,ii)); auditRHS=norm(F(:,ii));
++      if auditRHS>0, auditTrue=auditAbs/auditRHS; else, auditTrue=auditAbs; end
++      auditPath=getenv('TPMS_DIAGNOSTICS_FILE');
++      auditExists=isfile(auditPath); auditF=fopen(auditPath,'a');
++      if ~auditExists, fprintf(auditF,'Case,LoadCase,Flag,ReportedRelativeResidual,TrueRelativeResidual,AbsoluteResidual,RHSNorm,Iterations,Seconds,Tolerance,MaxIterations\n'); end
++      fprintf(auditF,'%s,%d,%d,%.17g,%.17g,%.17g,%.17g,%.17g,%.17g,%.17g,%d\n',getenv('TPMS_AUDIT_CASE'),ii,auditFlag,auditRelres,auditTrue,auditAbs,auditRHS,auditIter,toc(auditTimer),fem.tol_pcg,maxiter); fclose(auditF);
++      writematrix(auditResvec,fullfile(fileparts(auditPath),sprintf('residual_%s_load%d.csv',getenv('TPMS_AUDIT_CASE'),ii)));
++      fprintf('DIAGNOSTIC %s load=%d flag=%d relres=%.6g true=%.6g iter=%.1f\n',getenv('TPMS_AUDIT_CASE'),ii,auditFlag,auditRelres,auditTrue,auditIter);
+ %       % Quasi-minimal residual method (second fastest)
+ %       [U(:,ii),~] = qmr(K,F(:,ii),fem.tol_pcg,maxiter,D,[],fem.U(:,ii));
+     end

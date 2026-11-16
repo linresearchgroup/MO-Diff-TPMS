@@ -1,0 +1,27 @@
+26.1.0.3251617 (R2026a) Update 2
+PCWIN64
+PROJECT_ROOT\review suggestion\2nd revision\revision_round2_evidence_checked\matlab_check\solver\Homog_TPMS_Visco3.m
+{Unrecognized function or variable 'gpuDevice'.
+
+gpuDevice requires Parallel Computing Toolbox.
+
+Error in run_fixed_checks (line 8)
+g = gpuDevice; disp(g);
+^^^^^^^^^^^^^^^^^^^^^^^
+Error in run (line 100)
+evalin('caller', strcat(scriptStem, ';'));
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+26.1.0.3251617 (R2026a) Update 2
+PCWIN64
+PROJECT_ROOT\review suggestion\2nd revision\revision_round2_evidence_checked\matlab_check\solver\Homog_TPMS_Visco3.m
+Using the retained CPU Diagonal BiCGSTAB branch; GPU toolbox unavailable.
+PRE-CALCULATIONS FINISHED!
+Precomputation seconds: 2.8564
+START saved case A1
+Time to compute homogenized complex modulus: 1.2 minutes 
+     Case     training_excel_row    all_excel_row     Ep1       Ep2       Ep3      Epp1     Epp2     Epp3       t1        t2       EpH       EppH      Calculated_EpH    Calculated_EppH    Elapsed_seconds      Status   
+    ______    __________________    _____________    ______    ______    ______    _____    _____    _____    ______    ______    ______    _______    ______________    _______________    _______________    ___________
+
+    {'A1'}          28892               36543        5.9629    5.5359    2.6058    0.188    1.108    1.972    3.2728    2.8552    1.0049    0.96765        5.9612            0.18804            73.558         "completed"
+

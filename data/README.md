@@ -10,7 +10,7 @@ The notebooks use repository-root-relative paths. The datasets required for the 
 | `val.xlsx` | soft diffusion and prediction notebooks | held-out group-wise validation set |
 | `TrainingData_all_validation.xlsx` | sample-group 1 evaluation | independent/combined validation inputs |
 | `combined_augmented_all_data.xlsx` | sample-group 2 evaluation | combined augmented dataset used by the retained evaluation script |
-| `testing_2.xlsx` | `figure2_i_o.ipynb` | saved predictions and MATLAB-calculated values for Fig. 2 panels |
+| `testing_2.xlsx` | `figure2_i_o.ipynb` | archived comparison values for a legacy plotting utility; corrected Figure 3 data are under verification/round2/forward_comparison |
 
 `val_result.xlsx`, inverse-candidate spreadsheets, and ranked-candidate CSV files are generated outputs rather than required source data.
 
@@ -22,7 +22,7 @@ The notebooks use repository-root-relative paths. The datasets required for the 
 | `combined_soft_hard_val.xlsx` | high-stiffness diffusion and forward-model evaluation | expanded-domain validation set |
 | `HardMaterial_Independent_Test_5Groups_calculated.xlsx` | high-stiffness prediction | independent MATLAB-calculated test cases |
 | `HardMaterial_Independent_Test_Selected15.xlsx` | selected high-stiffness evaluation | selected independent test cases; sheet `Selected15` |
-| `testing_2_hard_all.xlsx` | `figure5_i_o.ipynb` | final 28-case high-stiffness validation summary |
+| `testing_2_hard_all.xlsx` | `figure5_i_o.ipynb` | retained 28-case high-stiffness forward-comparison summary (current Figure 6) |
 
 Files named `*_prediction_soft_hard.xlsx`, `*_comparison.xlsx`, or `*_refined_comparison.xlsx` are notebook outputs.
 
@@ -45,3 +45,8 @@ Some independent-test files contain additional group IDs, calculated moduli, or 
 - The expanded soft–hard training and validation sets contain 16,016 and 4,095 rows, respectively, with no overlapping constituent-material groups.
 - Blank group-ID fields in the soft rows of the expanded datasets are intentional because those identifiers apply only to the hard-material enrichment records.
 - `testing_2_hard_all.xlsx` contains the 28 retained high-stiffness validation cases reported in the manuscript.
+
+
+## Audited revision records
+
+See [`verification/round2/`](../verification/round2/) for eight augmentation-label checks, final Table S9 with 35 complete inverse-design cases and 70 component results, convergence logs, and the unpaired S3-h record. Old plotting worksheet columns are retained as archive data; their labels alone are not proof of a paired MATLAB calculation. Use the audited case files and their explicitly defined error denominators for the final comparisons.

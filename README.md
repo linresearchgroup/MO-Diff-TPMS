@@ -17,6 +17,8 @@ MO-Diff-TPMS/
 │   └── high_stiffness/     # expanded-domain checkpoints, scalers, and predictions
 ├── experimental/           # later variants not used for the reported soft-material results
 ├── data/                   # input datasets and validation summaries
+├── matlab/                 # homogenization sources and guarded fixed-input entry
+├── verification/round2/    # complete revision checks and case provenance
 └── requirements.txt
 ```
 
@@ -49,7 +51,7 @@ Launch Jupyter from the repository root because the notebooks use root-relative 
 2. One of the inverse-design notebooks in `notebooks/soft_material/`
 3. `notebooks/soft_material/prediction_with_refinement.ipynb` for the optional local gradient-refinement demonstration
 
-The trained soft-material forward-surrogate checkpoint and its architecture are supplied for inference. The original training notebook was overwritten during later high-stiffness model-development experiments and is unavailable; the matching checkpoint, training history, validation predictions, and inference implementation are retained.
+The soft-material forward-surrogate checkpoint, architecture, training history and saved validation predictions support inference and comparison. Exact historical training reproduction is not claimed.
 
 ### High-stiffness extension
 
@@ -59,14 +61,17 @@ The trained soft-material forward-surrogate checkpoint and its architecture are 
 
 The supplied `*_soft_hard*` artifacts correspond to the expanded soft–hard property domain.
 
-## Historical-code note
+## Scope of retained workflows
 
-Two later development notebooks are retained under `experimental/` for transparency:
+The `experimental/` notebooks are retained variants. Their presence does not certify the historical generation of every saved row. Downstream training/validation material groups are disjoint and the downstream scalers match the training subset. BiLSTM-stage normalization uses the complete original database; the full weight-fitting group membership is unresolved. No split-first augmentation history or complete pipeline independence is claimed.
 
-- `forward_model_experimental_high_stiffness.ipynb` contains a later forward-surrogate variant with `fusion_norm` and stronger dropout. It was not used to generate the reported soft-material results.
-- `rnn_augmentation_experimental.ipynb` performs BiLSTM fitting before its final group-wise split. It is not the split-first augmentation implementation described in the manuscript. The original split-first notebook was overwritten during later development.
+## MATLAB and numerical verification
 
-These notebooks should not be treated as exact reproduction scripts for the reported soft-material preprocessing and forward-surrogate training.
+See [`matlab/README.md`](matlab/README.md) for original-material and high-stiffness spreadsheet entries, the guarded fixed-input CSV wrapper, all numerical dependencies and retained attribution. The CPU verification path preserves the original numerical algorithm.
+
+[`verification/round2/`](verification/round2/) contains all eight stored augmentation-label checks (including large errors), selection and source records, convergence evidence, final Table S9 with 35 complete target–prediction–calculation cases (70 component results), and the excluded unpaired case. These are different error tasks; their definitions and scope are documented there.
+
+Current Figure 2 shows four TPMS structures. Current Figure 3l–o uses the 22 audited cases in `verification/round2/forward_comparison/figure3_l_o_source.csv`. Legacy `notebooks/figures/figure2_i_o.ipynb` reads the archived 34-row worksheet and does not reproduce the corrected accuracy panels. Legacy `figure5_i_o.ipynb` relates to current Figure 6. Supplementary tables end at S9; the augmentation check is now repository documentation, not a separate supplementary table.
 
 ## Data availability
 
@@ -74,7 +79,7 @@ The trained checkpoints, scalers, training histories, derived prediction records
 
 The optional `new samples.xlsx` demonstration input is not included because it is not used for the reported manuscript results.
 
-Code for Fig. 2(j–k), originally generated in Google Colab, is not included. The corresponding results remain documented in the manuscript and supporting material.
+The separate utility originally used for current Fig. 3(j–k), previously numbered Fig. 2(j–k), is not included. The corresponding results remain documented in the manuscript and supporting material.
 
 ## Reproducibility notes
 
@@ -85,3 +90,4 @@ Code for Fig. 2(j–k), originally generated in Google Colab, is not included. T
 ## Citation
 
 Please cite the associated manuscript when using this repository. Full citation information will be added after publication.
+

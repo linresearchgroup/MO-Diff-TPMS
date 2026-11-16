@@ -1,0 +1,13 @@
+{
+  "original_matches": 16471,
+  "nonoriginal": 25098,
+  "unique_original_rows_matched": 16471,
+  "geometry_matches_with_label_conflict": 0,
+  "original_match_geometry_maxdiff": 0.0,
+  "original_match_label_maxdiff": 0.0,
+  "training_original": 13104,
+  "training_nonoriginal": 19834,
+  "validation_original": 3367,
+  "validation_nonoriginal": 5264,
+  "synthetic_selection_status": "8 rows selected before calculation; identity supported by complete original-cohort reconciliation and augmentation count, not explicit flags or a recovered window map"
+}

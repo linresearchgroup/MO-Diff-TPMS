@@ -1,0 +1,21 @@
+{
+  "dimensions": [
+    1089,
+    1206
+  ],
+  "modified_rectangle": [
+    0,
+    915,
+    1089,
+    1206
+  ],
+  "panels_a_k_pixels_unchanged": true,
+  "cases": 22,
+  "retained_records": 16,
+  "additional_fixed_candidate_calculations": 6,
+  "all_values_included_in_statistics": true,
+  "boxplots_show_outliers": true,
+  "error_denominator": "absolute MATLAB calculation",
+  "matplotlib_version": "3.11.2",
+  "source_notebook": "code/figure2(i-o).ipynb, plotting cells 2\u20134; no notebook execution"
+}

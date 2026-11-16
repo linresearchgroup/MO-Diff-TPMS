@@ -1,0 +1,4260 @@
+[
+  {
+    "cohort": "Soft",
+    "Case": "S3-a",
+    "Ep1": 4.458099842071533,
+    "Ep2": 1.41920006275177,
+    "Ep3": 1.038699984550476,
+    "Epp1": 1.946899890899658,
+    "Epp2": 1.045199990272522,
+    "Epp3": 0.1944999992847443,
+    "t1": -1.89060914516449,
+    "t2": 1.709160089492798,
+    "Target_storage": 1.51417064666748,
+    "Target_loss": 1.045781493186951,
+    "Predicted_storage": 1.511554837226868,
+    "Predicted_loss": 1.045337438583374,
+    "request_source": "PROJECT_ROOT\\code\\data\\val_result_new_all_backup.xlsx",
+    "request_location": "Sheet1 row 4",
+    "paper_target": [
+      1.514,
+      1.046
+    ],
+    "paper_predicted": [
+      1.5115548,
+      1.0453374
+    ],
+    "calculation_sources": [
+      {
+        "input": [
+          4.458099842071533,
+          1.41920006275177,
+          1.038699984550476,
+          1.946899890899658,
+          1.045199990272522,
+          0.1944999992847443,
+          -1.89060914516449,
+          1.709160089492798
+        ],
+        "calculated": [
+          1.51417064666748,
+          1.045781493186951
+        ],
+        "source": "PROJECT_ROOT\\code\\data\\testing_2.xlsx",
+        "location": "Sheet1 row 20"
+      },
+      {
+        "input": [
+          4.458099842071533,
+          1.41920006275177,
+          1.038699984550476,
+          1.946899890899658,
+          1.045199990272522,
+          0.1944999992847443,
+          -1.89060914516449,
+          1.709160089492798
+        ],
+        "calculated": [
+          1.51417064666748,
+          1.045781493186951
+        ],
+        "source": "PROJECT_ROOT\\code\\data\\testing_2_new_all_backup.xlsx",
+        "location": "Sheet1 row 20"
+      }
+    ],
+    "Calculated_storage": 1.51417064666748,
+    "Calculated_loss": 1.045781493186951,
+    "status": "matched all eight inputs",
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": true,
+    "target_source_kind": "saved validation-row label",
+    "source_row_material_maxdiff": 1.579284667485581e-07,
+    "source_row_target_maxdiff": 0.0,
+    "origin_record_file": "code/data/val.xlsx",
+    "origin_record_location": "Sheet1 row 1502",
+    "code_location": "Prediction_without_refinement_sample_group_3.ipynb cell 16 saved output, sample index 1500",
+    "target_is_original_homogenization_row": false,
+    "target_t1": -1.858710289001465,
+    "target_t2": 1.519756197929382,
+    "phase_counts_candidate": [
+      8504,
+      105344,
+      11152
+    ],
+    "phase_counts_target": [
+      8864,
+      101864,
+      14272
+    ],
+    "same_phase_field": false,
+    "same_interpolated_material_field": false,
+    "different_phase_elements": 3480,
+    "field_max_difference": 3.037988200549922,
+    "candidate_homogeneous_field": false,
+    "domain_reference": "saved augmented soft database",
+    "inside_global_coordinate_bounds": true,
+    "material_group_reference": "saved augmented soft database",
+    "material_group_rows": 305,
+    "material_group_response_min": [
+      1.03846881794771,
+      0.1945803812090656
+    ],
+    "material_group_response_max": [
+      4.478675365447998,
+      1.959822654724121
+    ],
+    "inside_group_coordinate_bounds": true,
+    "joint_reachability_from_coordinate_bounds": "not inferred",
+    "previously_zero_or_roundoff_target_error": true,
+    "zero_audit_status": "different or untraced candidate/target fields; saved equality needs numerical/provenance confirmation",
+    "audited_calculation_status": "new diagnostic fixed-candidate calculation; archived zero contradicted",
+    "audited_Calculated_storage": 1.50759948761538,
+    "audited_Calculated_loss": 1.00512276058254
+  },
+  {
+    "cohort": "Soft",
+    "Case": "S3-b",
+    "Ep1": 5.979300022125244,
+    "Ep2": 5.775899887084961,
+    "Ep3": 3.663100004196167,
+    "Epp1": 0.1136000156402588,
+    "Epp2": 0.7117999792098999,
+    "Epp3": 2.129899978637695,
+    "t1": 0.2284510135650635,
+    "t2": 1.583618402481079,
+    "Target_storage": 5.756627024116551,
+    "Target_loss": 0.5290819423938269,
+    "Predicted_storage": 5.760713577270508,
+    "Predicted_loss": 0.5328356027603149,
+    "request_source": "PROJECT_ROOT\\code\\data\\val_result_new_all_backup.xlsx",
+    "request_location": "Sheet1 row 10",
+    "paper_target": [
+      5.757,
+      0.529
+    ],
+    "paper_predicted": [
+      5.7607136,
+      0.5328356
+    ],
+    "calculation_sources": [
+      {
+        "input": [
+          5.979300022125244,
+          5.775899887084961,
+          3.663100004196167,
+          0.1136000156402588,
+          0.7117999792098999,
+          2.129899978637695,
+          0.2284510135650635,
+          1.583618402481079
+        ],
+        "calculated": [
+          5.756627024116551,
+          0.5290819423938269
+        ],
+        "source": "PROJECT_ROOT\\code\\data\\testing_2.xlsx",
+        "location": "Sheet1 row 26"
+      },
+      {
+        "input": [
+          5.979300022125244,
+          5.775899887084961,
+          3.663100004196167,
+          0.1136000156402588,
+          0.7117999792098999,
+          2.129899978637695,
+          0.2284510135650635,
+          1.583618402481079
+        ],
+        "calculated": [
+          5.756627024116551,
+          0.5290819423938269
+        ],
+        "source": "PROJECT_ROOT\\code\\data\\testing_2_new_all_backup.xlsx",
+        "location": "Sheet1 row 26"
+      }
+    ],
+    "Calculated_storage": 5.756627024116551,
+    "Calculated_loss": 0.5290819423938269,
+    "status": "matched all eight inputs",
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": true,
+    "target_source_kind": "saved validation-row label",
+    "source_row_material_maxdiff": 1.1291503909660605e-07,
+    "source_row_target_maxdiff": 0.0,
+    "origin_record_file": "code/data/val.xlsx",
+    "origin_record_location": "Sheet1 row 4502",
+    "code_location": "Prediction_without_refinement_sample_group_3.ipynb cell 16 saved output, sample index 4500",
+    "target_is_original_homogenization_row": true,
+    "target_t1": 0.0,
+    "target_t2": 2.0,
+    "phase_counts_candidate": [
+      70496,
+      41360,
+      13144
+    ],
+    "phase_counts_target": [
+      62558,
+      55266,
+      7176
+    ],
+    "same_phase_field": false,
+    "same_interpolated_material_field": false,
+    "different_phase_elements": 13946,
+    "field_max_difference": 2.315505227407382,
+    "candidate_homogeneous_field": false,
+    "domain_reference": "saved augmented soft database",
+    "inside_global_coordinate_bounds": true,
+    "material_group_reference": "saved augmented soft database",
+    "material_group_rows": 300,
+    "material_group_response_min": [
+      3.524323463439941,
+      0.11365685964718
+    ],
+    "material_group_response_max": [
+      5.977650804020727,
+      2.133706569671631
+    ],
+    "inside_group_coordinate_bounds": true,
+    "joint_reachability_from_coordinate_bounds": "not inferred",
+    "previously_zero_or_roundoff_target_error": true,
+    "zero_audit_status": "different or untraced candidate/target fields; saved equality needs numerical/provenance confirmation",
+    "audited_calculation_status": "new fixed-candidate calculation with converged diagnostics",
+    "audited_Calculated_storage": 5.66760581393961,
+    "audited_Calculated_loss": 0.582220853302369,
+    "new_calculation_source": "PROJECT_ROOT\\review suggestion\\2nd revision\\revision_round2_final_fig3\\matlab_check\\diagnostic_calculations.csv"
+  },
+  {
+    "cohort": "Soft",
+    "Case": "S3-c",
+    "Ep1": 1.204300165176392,
+    "Ep2": 1.019199967384338,
+    "Ep3": 1.002899885177612,
+    "Epp1": 0.670199990272522,
+    "Epp2": 0.1063999906182289,
+    "Epp3": 0.01779999583959579,
+    "t1": 2.570198535919189,
+    "t2": 2.401066541671753,
+    "Target_storage": 1.167011022567749,
+    "Target_loss": 0.6592949032783508,
+    "Predicted_storage": 1.16758668422699,
+    "Predicted_loss": 0.660064697265625,
+    "request_source": "PROJECT_ROOT\\code\\data\\val_result_new_all_backup.xlsx",
+    "request_location": "Sheet1 row 13",
+    "paper_target": [
+      1.167,
+      0.659
+    ],
+    "paper_predicted": [
+      1.1675867,
+      0.6600647
+    ],
+    "calculation_sources": [
+      {
+        "input": [
+          1.204300165176392,
+          1.019199967384338,
+          1.002899885177612,
+          0.670199990272522,
+          0.1063999906182289,
+          0.01779999583959579,
+          2.570198535919189,
+          2.401066541671753
+        ],
+        "calculated": [
+          1.167011022567749,
+          0.6592949032783508
+        ],
+        "source": "PROJECT_ROOT\\code\\data\\testing_2.xlsx",
+        "location": "Sheet1 row 29"
+      },
+      {
+        "input": [
+          1.204300165176392,
+          1.019199967384338,
+          1.002899885177612,
+          0.670199990272522,
+          0.1063999906182289,
+          0.01779999583959579,
+          2.570198535919189,
+          2.401066541671753
+        ],
+        "calculated": [
+          1.167011022567749,
+          0.6592949032783508
+        ],
+        "source": "PROJECT_ROOT\\code\\data\\testing_2_new_all_backup.xlsx",
+        "location": "Sheet1 row 29"
+      }
+    ],
+    "Calculated_storage": 1.167011022567749,
+    "Calculated_loss": 0.6592949032783508,
+    "status": "matched all eight inputs",
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": true,
+    "target_source_kind": "saved validation-row label",
+    "source_row_material_maxdiff": 1.6517639211954815e-07,
+    "source_row_target_maxdiff": 0.0,
+    "origin_record_file": "code/data/val.xlsx",
+    "origin_record_location": "Sheet1 row 6002",
+    "code_location": "Prediction_without_refinement_sample_group_3.ipynb cell 16 saved output, sample index 6000",
+    "target_is_original_homogenization_row": false,
+    "target_t1": 2.531838417053223,
+    "target_t2": 2.959352016448975,
+    "phase_counts_candidate": [
+      123192,
+      0,
+      1808
+    ],
+    "phase_counts_target": [
+      122944,
+      2000,
+      56
+    ],
+    "same_phase_field": false,
+    "same_interpolated_material_field": false,
+    "different_phase_elements": 2000,
+    "field_max_difference": 0.5636308765678331,
+    "candidate_homogeneous_field": false,
+    "domain_reference": "saved augmented soft database",
+    "inside_global_coordinate_bounds": true,
+    "material_group_reference": "saved augmented soft database",
+    "material_group_rows": 98,
+    "material_group_response_min": [
+      1.002690530382267,
+      0.01793711550193676
+    ],
+    "material_group_response_max": [
+      1.20404942988489,
+      0.6700501857521981
+    ],
+    "inside_group_coordinate_bounds": true,
+    "joint_reachability_from_coordinate_bounds": "not inferred",
+    "previously_zero_or_roundoff_target_error": true,
+    "zero_audit_status": "different or untraced candidate/target fields; saved equality needs numerical/provenance confirmation",
+    "audited_calculation_status": "new fixed-candidate calculation with converged diagnostics",
+    "audited_Calculated_storage": 1.20275395290314,
+    "audited_Calculated_loss": 0.658603571600307,
+    "new_calculation_source": "PROJECT_ROOT\\review suggestion\\2nd revision\\revision_round2_final_fig3\\matlab_check\\diagnostic_calculations.csv"
+  },
+  {
+    "cohort": "Soft",
+    "Case": "S3-d",
+    "Ep1": 5.668668659,
+    "Ep2": 2.856725231,
+    "Ep3": 1.162870909,
+    "Epp1": 0.909282724,
+    "Epp2": 2.052095836,
+    "Epp3": 0.575950832,
+    "t1": 1.11541,
+    "t2": 2.56292,
+    "Target_storage": 5.0,
+    "Target_loss": 1.2,
+    "Predicted_storage": 4.99231,
+    "Predicted_loss": 1.19587,
+    "request_source": "PROJECT_ROOT\\code\\data\\val_result_defined_target.xlsx",
+    "request_location": "Sheet1 row 2",
+    "paper_target": [
+      5.0,
+      1.2
+    ],
+    "paper_predicted": [
+      4.99231,
+      1.19587
+    ],
+    "calculation_sources": [
+      {
+        "input": [
+          5.668668658546624,
+          2.856725231184956,
+          1.162870908902894,
+          0.9092827242241632,
+          2.052095835855305,
+          0.5759508318776982,
+          1.11541,
+          2.56292
+        ],
+        "calculated": [
+          5.0400140799121935,
+          1.187288239404709
+        ],
+        "source": "PROJECT_ROOT\\code\\data\\testing.xlsx",
+        "location": "testing row 3"
+      },
+      {
+        "input": [
+          5.668668659,
+          2.856725231,
+          1.162870909,
+          0.909282724,
+          2.052095836,
+          0.575950832,
+          1.11541,
+          2.56292
+        ],
+        "calculated": [
+          5.04001408,
+          1.187288239
+        ],
+        "source": "PROJECT_ROOT\\code\\data\\testing_2.xlsx",
+        "location": "Sheet1 row 3"
+      },
+      {
+        "input": [
+          5.668668659,
+          2.856725231,
+          1.162870909,
+          0.909282724,
+          2.052095836,
+          0.575950832,
+          1.11541,
+          2.56292
+        ],
+        "calculated": [
+          5.04001408,
+          1.187288239
+        ],
+        "source": "PROJECT_ROOT\\code\\data\\testing_2_new_all_backup.xlsx",
+        "location": "Sheet1 row 3"
+      }
+    ],
+    "Calculated_storage": 5.0400140799121935,
+    "Calculated_loss": 1.187288239404709,
+    "status": "matched all eight inputs",
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": false,
+    "target_source_kind": "manually assigned target, run-matched",
+    "manual_assignment_confirmed": true,
+    "code_location": "Prediction_without_refinement_sample_group_2.ipynb cells 20–23: saved six moduli, raw_target=[[5,1.2]], selected candidate [1.11541,2.56292] and prediction [4.99231,1.19587] match val_result_defined_target.xlsx row 2",
+    "manual_assignment_not_equivalent_to_extrapolation": true,
+    "domain_reference": "saved augmented soft database",
+    "inside_global_coordinate_bounds": true,
+    "material_group_reference": "saved augmented soft database",
+    "material_group_rows": 352,
+    "material_group_response_min": [
+      1.149746656417847,
+      0.5758783762509129
+    ],
+    "material_group_response_max": [
+      5.667072552678361,
+      2.067046642303467
+    ],
+    "inside_group_coordinate_bounds": true,
+    "joint_reachability_from_coordinate_bounds": "not inferred",
+    "previously_zero_or_roundoff_target_error": false,
+    "audited_calculation_status": "matched all eight inputs",
+    "audited_Calculated_storage": 5.0400140799121935,
+    "audited_Calculated_loss": 1.187288239404709
+  },
+  {
+    "cohort": "Soft",
+    "Case": "S3-e",
+    "Ep1": 1.270246028900146,
+    "Ep2": 1.023982167243958,
+    "Ep3": 1.003541707992554,
+    "Epp1": 0.8019458651542664,
+    "Epp2": 0.1295113861560822,
+    "Epp3": 0.0217486247420311,
+    "t1": -1.978908777236938,
+    "t2": 1.418313145637512,
+    "Target_storage": 1.05560103809352,
+    "Target_loss": 0.1530706141570743,
+    "Predicted_storage": 1.055284380912781,
+    "Predicted_loss": 0.1527009904384613,
+    "request_source": "PROJECT_ROOT\\code\\data\\val_result.xlsx",
+    "request_location": "Sheet1 row 2",
+    "paper_target": [
+      1.055601,
+      0.1530706
+    ],
+    "paper_predicted": [
+      1.0552844,
+      0.152701
+    ],
+    "calculation_sources": [],
+    "status": "new MATLAB calculation at recovered fixed candidate",
+    "Calculated_storage": 1.04101624420506,
+    "Calculated_loss": 0.145961366671845,
+    "new_calculation_source": "matlab_check/synthetic_soft.csv; S3-e",
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": true,
+    "target_source_kind": "saved extra-material validation-row response",
+    "origin_record_file": "code/data/TrainingData_all_validation.xlsx",
+    "origin_record_location": "Sheet1 row 42",
+    "code_location": "Prediction_without_refinement_sample_group_1.ipynb cell 16 saved sample 40",
+    "target_t1": -1.5,
+    "target_t2": 0.5,
+    "phase_counts_candidate": [
+      7352,
+      101448,
+      16200
+    ],
+    "phase_counts_target": [
+      14608,
+      65880,
+      44512
+    ],
+    "same_phase_field": false,
+    "same_interpolated_material_field": false,
+    "different_phase_elements": 35568,
+    "field_max_difference": 0.6722327688268467,
+    "candidate_homogeneous_field": false,
+    "domain_reference": "saved augmented soft database",
+    "inside_global_coordinate_bounds": true,
+    "material_group_reference": "additional 364-row validation database",
+    "material_group_rows": 91,
+    "material_group_response_min": [
+      1.003341964989035,
+      0.02184241248304773
+    ],
+    "material_group_response_max": [
+      1.269964744853622,
+      0.8018053616670183
+    ],
+    "inside_group_coordinate_bounds": true,
+    "joint_reachability_from_coordinate_bounds": "not inferred",
+    "previously_zero_or_roundoff_target_error": false,
+    "audited_calculation_status": "new MATLAB calculation at recovered fixed candidate",
+    "audited_Calculated_storage": 1.04101624420506,
+    "audited_Calculated_loss": 0.145961366671845
+  },
+  {
+    "cohort": "Soft",
+    "Case": "S3-f",
+    "Ep1": 5.96222448348999,
+    "Ep2": 5.526056289672852,
+    "Ep3": 2.57857084274292,
+    "Epp1": 0.1907546520233154,
+    "Epp2": 1.121234059333801,
+    "Epp3": 1.961527705192566,
+    "t1": -1.55424,
+    "t2": -0.37121,
+    "Target_storage": 4.0,
+    "Target_loss": 1.6,
+    "Predicted_storage": 3.99568,
+    "Predicted_loss": 1.59753,
+    "request_source": "PROJECT_ROOT\\code\\data\\val_result.xlsx",
+    "request_location": "Sheet1 row 11",
+    "paper_target": [
+      4.0,
+      1.6
+    ],
+    "paper_predicted": [
+      3.99568,
+      1.59753
+    ],
+    "calculation_sources": [],
+    "status": "new MATLAB calculation at recovered fixed candidate",
+    "Calculated_storage": 3.67959621662819,
+    "Calculated_loss": 1.69341159246063,
+    "new_calculation_source": "matlab_check/synthetic_soft.csv; S3-f",
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": false,
+    "target_source_kind": "manually perturbed target, run-matched",
+    "code_location": "Prediction_without_refinement_sample_group_1.ipynb cells 18–19; raw_target=[[4,1.6]]; saved output matches material, candidate and predictions",
+    "manual_assignment_confirmed": true,
+    "baseline_row_target": [
+      3.963926536066952,
+      1.641414324305195
+    ],
+    "baseline_target_change": [
+      0.036073463933048,
+      -0.04141432430519498
+    ],
+    "domain_reference": "saved augmented soft database",
+    "inside_global_coordinate_bounds": true,
+    "material_group_reference": "additional 364-row validation database",
+    "material_group_rows": 91,
+    "material_group_response_min": [
+      2.577897848784449,
+      0.1907981498553637
+    ],
+    "material_group_response_max": [
+      5.96054571621211,
+      1.961039955229279
+    ],
+    "inside_group_coordinate_bounds": true,
+    "joint_reachability_from_coordinate_bounds": "not inferred",
+    "previously_zero_or_roundoff_target_error": false,
+    "audited_calculation_status": "new MATLAB calculation at recovered fixed candidate",
+    "audited_Calculated_storage": 3.67959621662819,
+    "audited_Calculated_loss": 1.69341159246063
+  },
+  {
+    "cohort": "Soft",
+    "Case": "S3-g",
+    "Ep1": 5.991600036621094,
+    "Ep2": 5.925899982452393,
+    "Ep3": 5.113899707794189,
+    "Epp1": 0.05010002478957176,
+    "Epp2": 0.326399952173233,
+    "Epp3": 1.553900003433228,
+    "t1": -3.066274881362915,
+    "t2": -2.152437686920166,
+    "Target_storage": 5.223332368454012,
+    "Target_loss": 1.410624304605854,
+    "Predicted_storage": 5.25661563873291,
+    "Predicted_loss": 1.413457632064819,
+    "request_source": "PROJECT_ROOT\\code\\data\\val_result_new_all_backup.xlsx",
+    "request_location": "Sheet1 row 11",
+    "paper_target": [
+      5.223,
+      1.411
+    ],
+    "paper_predicted": [
+      5.2566156,
+      1.4134576
+    ],
+    "calculation_sources": [
+      {
+        "input": [
+          5.991600036621094,
+          5.925899982452393,
+          5.113899707794189,
+          0.05010002478957176,
+          0.326399952173233,
+          1.553900003433228,
+          -3.066274881362915,
+          -2.152437686920166
+        ],
+        "calculated": [
+          5.223332368454012,
+          1.410624304605854
+        ],
+        "source": "PROJECT_ROOT\\code\\data\\testing_2.xlsx",
+        "location": "Sheet1 row 27"
+      },
+      {
+        "input": [
+          5.991600036621094,
+          5.925899982452393,
+          5.113899707794189,
+          0.05010002478957176,
+          0.326399952173233,
+          1.553900003433228,
+          -3.066274881362915,
+          -2.152437686920166
+        ],
+        "calculated": [
+          5.223332368454012,
+          1.410624304605854
+        ],
+        "source": "PROJECT_ROOT\\code\\data\\testing_2_new_all_backup.xlsx",
+        "location": "Sheet1 row 27"
+      }
+    ],
+    "Calculated_storage": 5.223332368454012,
+    "Calculated_loss": 1.410624304605854,
+    "status": "matched all eight inputs",
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": true,
+    "target_source_kind": "saved validation-row label",
+    "source_row_material_maxdiff": 2.9220581154731917e-07,
+    "source_row_target_maxdiff": 0.0,
+    "origin_record_file": "code/data/val.xlsx",
+    "origin_record_location": "Sheet1 row 5002",
+    "code_location": "Prediction_without_refinement_sample_group_3.ipynb cell 16 saved output, sample index 5000",
+    "target_is_original_homogenization_row": true,
+    "target_t1": -2.0,
+    "target_t2": -1.5,
+    "phase_counts_candidate": [
+      0,
+      5352,
+      119648
+    ],
+    "phase_counts_target": [
+      7136,
+      7472,
+      110392
+    ],
+    "same_phase_field": false,
+    "same_interpolated_material_field": false,
+    "different_phase_elements": 14608,
+    "field_max_difference": 1.5033488837625588,
+    "candidate_homogeneous_field": false,
+    "domain_reference": "saved augmented soft database",
+    "inside_global_coordinate_bounds": true,
+    "material_group_reference": "saved augmented soft database",
+    "material_group_rows": 212,
+    "material_group_response_min": [
+      4.861017227172852,
+      0.05014492473215861
+    ],
+    "material_group_response_max": [
+      5.989868764999418,
+      1.675429463386536
+    ],
+    "inside_group_coordinate_bounds": true,
+    "joint_reachability_from_coordinate_bounds": "not inferred",
+    "previously_zero_or_roundoff_target_error": true,
+    "zero_audit_status": "different or untraced candidate/target fields; saved equality needs numerical/provenance confirmation",
+    "audited_calculation_status": "new fixed-candidate calculation with converged diagnostics",
+    "audited_Calculated_storage": 5.15117018684953,
+    "audited_Calculated_loss": 1.50701626532461,
+    "new_calculation_source": "PROJECT_ROOT\\review suggestion\\2nd revision\\revision_round2_final_fig3\\matlab_check\\diagnostic_calculations.csv"
+  },
+  {
+    "cohort": "Soft",
+    "Case": "S3-h",
+    "paper_predicted": [
+      1.0407025,
+      0.1715504
+    ],
+    "paper_target": [
+      1.041,
+      0.148
+    ],
+    "status": "exact target-request linkage not recovered",
+    "Ep1": 1.045399904,
+    "Ep2": 1.005600095,
+    "Ep3": 1.00090003,
+    "Epp1": 0.221899986,
+    "Epp2": 0.033799984,
+    "Epp3": 0.005599998,
+    "t1": 0.512584805,
+    "t2": 1.30204618,
+    "Predicted_storage": 1.040702462,
+    "Predicted_loss": 0.171550423,
+    "Calculated_storage": 1.038532554,
+    "Calculated_loss": 0.177607462,
+    "calculation_sources": [
+      {
+        "source": "PROJECT_ROOT\\code\\data\\testing_2.xlsx",
+        "location": "Sheet1 row 35",
+        "identification": "unique published prediction pair in the existing Figure 3 forward-comparison source; not a target-request match"
+      }
+    ],
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": false,
+    "target_source_kind": "unresolved request",
+    "code_location": "Published S3-h forward record retained; exact target request not recovered; group_2 cells 55–56 have a nearby target but different material input and are not assigned to this case",
+    "domain_reference": "saved augmented soft database",
+    "previously_zero_or_roundoff_target_error": false,
+    "audited_calculation_status": "incomplete target-candidate-calculation linkage; archived values retained in tables/S3_h_archived_record.csv",
+    "audited_Calculated_storage": null,
+    "audited_Calculated_loss": null
+  },
+  {
+    "cohort": "High",
+    "Case": "H1",
+    "paper_table": "S7",
+    "paper_case": 1,
+    "Ep1": 119.4362686,
+    "Ep2": 1.0119517137,
+    "Ep3": 119.4362686,
+    "Epp1": 70.50075749,
+    "Epp2": 0.0692280202,
+    "Epp3": 70.50075749,
+    "t1": -0.8373186588287354,
+    "t2": 0.3501884341239929,
+    "Target_storage": 32.52870600261199,
+    "Target_loss": 17.963869357913147,
+    "Predicted_storage": 33.06892013549805,
+    "Predicted_loss": 17.60160255432129,
+    "Calculated_storage": 37.68813731985098,
+    "Calculated_loss": 20.976530939501774,
+    "calculation_source": "code/data/testing_2_hard_all.xlsx; Sheet1 row 2",
+    "request_sources": [
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 19 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 21 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 23 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 25 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 27 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 19 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 21 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 23 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 25 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 27 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 19 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 21 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 23 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 25 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 27 saved output"
+      },
+      {
+        "file": "PROJECT_ROOT\\code\\data\\independent_hard_test_prediction_soft_hard.xlsx",
+        "location": "Sheet1 row 2"
+      }
+    ],
+    "full_input_maxdiff": 0.0,
+    "prediction_maxdiff": 0.0,
+    "pairing_status": "matched all six moduli and both candidate parameters; unique target",
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": true,
+    "target_source_kind": "saved homogenization-derived target at original test geometry",
+    "origin_record_file": "PROJECT_ROOT\\code\\data\\independent_hard_test_prediction_soft_hard.xlsx",
+    "origin_record_location": "Sheet1 row 2",
+    "code_location": "Prediction_without_refinement_high_stiffness_sample.ipynb cells 17/19–23 or 62/63; row[y_cols] -> scaler_y.transform -> physical-unit inverse-transformed predictions",
+    "target_t1": -0.752759286915825,
+    "target_t2": 0.5919509051822196,
+    "phase_counts_candidate": [
+      32792,
+      42000,
+      50208
+    ],
+    "phase_counts_target": [
+      35552,
+      48248,
+      41200
+    ],
+    "same_phase_field": false,
+    "same_interpolated_material_field": false,
+    "different_phase_elements": 11768,
+    "field_max_difference": 118.38879314384522,
+    "candidate_homogeneous_field": false,
+    "domain_reference": "expanded 20111-row database",
+    "inside_global_coordinate_bounds": true,
+    "material_group_reference": "expanded 20111-row database",
+    "material_group_rows": 0,
+    "inside_group_coordinate_bounds": null,
+    "joint_reachability_from_coordinate_bounds": "not inferred",
+    "previously_zero_or_roundoff_target_error": false,
+    "audited_calculation_status": "matched all six moduli and both candidate parameters; unique target",
+    "audited_Calculated_storage": 37.68813731985098,
+    "audited_Calculated_loss": 20.97653093950177
+  },
+  {
+    "cohort": "High",
+    "Case": "H2",
+    "paper_table": "S7",
+    "paper_case": 2,
+    "Ep1": 119.4362686,
+    "Ep2": 1.0119517137,
+    "Ep3": 119.4362686,
+    "Epp1": 70.50075749,
+    "Epp2": 0.0692280202,
+    "Epp3": 70.50075749,
+    "t1": 0.9912210702896118,
+    "t2": 0.7567474842071533,
+    "Target_storage": 119.40055931634072,
+    "Target_loss": 70.47971406586834,
+    "Predicted_storage": 116.6477355957031,
+    "Predicted_loss": 68.93930053710938,
+    "Calculated_storage": 119.40055931634072,
+    "Calculated_loss": 70.47971406586834,
+    "calculation_source": "code/data/testing_2_hard_all.xlsx; Sheet1 row 3",
+    "request_sources": [
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 19 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 21 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 23 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 25 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 27 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 19 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 21 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 23 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 25 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 27 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 19 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 21 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 23 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 25 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 27 saved output"
+      },
+      {
+        "file": "PROJECT_ROOT\\code\\data\\independent_hard_test_prediction_soft_hard.xlsx",
+        "location": "Sheet1 row 3"
+      }
+    ],
+    "full_input_maxdiff": 0.0,
+    "prediction_maxdiff": 2.842170943040401e-14,
+    "pairing_status": "matched all six moduli and both candidate parameters; unique target",
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": true,
+    "target_source_kind": "saved homogenization-derived target at original test geometry",
+    "origin_record_file": "PROJECT_ROOT\\code\\data\\independent_hard_test_prediction_soft_hard.xlsx",
+    "origin_record_location": "Sheet1 row 3",
+    "code_location": "Prediction_without_refinement_high_stiffness_sample.ipynb cells 17/19–23 or 62/63; row[y_cols] -> scaler_y.transform -> physical-unit inverse-transformed predictions",
+    "target_t1": 2.704285838459497,
+    "target_t2": -2.063888157345381,
+    "phase_counts_candidate": [
+      98064,
+      0,
+      26936
+    ],
+    "phase_counts_target": [
+      124032,
+      0,
+      968
+    ],
+    "same_phase_field": false,
+    "same_interpolated_material_field": true,
+    "different_phase_elements": 25968,
+    "field_max_difference": 0.0,
+    "candidate_homogeneous_field": true,
+    "domain_reference": "expanded 20111-row database",
+    "inside_global_coordinate_bounds": true,
+    "material_group_reference": "expanded 20111-row database",
+    "material_group_rows": 0,
+    "inside_group_coordinate_bounds": null,
+    "joint_reachability_from_coordinate_bounds": "not inferred",
+    "previously_zero_or_roundoff_target_error": true,
+    "zero_audit_status": "equivalent discrete material field supports numerical equality",
+    "audited_calculation_status": "matched all six moduli and both candidate parameters; unique target",
+    "audited_Calculated_storage": 119.40055931634072,
+    "audited_Calculated_loss": 70.47971406586834
+  },
+  {
+    "cohort": "High",
+    "Case": "H3",
+    "paper_table": "S7",
+    "paper_case": 3,
+    "Ep1": 119.4362686,
+    "Ep2": 1.0119517137,
+    "Ep3": 119.4362686,
+    "Epp1": 70.50075749,
+    "Epp2": 0.0692280202,
+    "Epp3": 70.50075749,
+    "t1": 0.1750521659851074,
+    "t2": 0.03992146253585815,
+    "Target_storage": 119.40055931634072,
+    "Target_loss": 70.47971406586834,
+    "Predicted_storage": 115.7328338623047,
+    "Predicted_loss": 70.82916259765625,
+    "Calculated_storage": 119.40055931634072,
+    "Calculated_loss": 70.47971406586834,
+    "calculation_source": "code/data/testing_2_hard_all.xlsx; Sheet1 row 4",
+    "request_sources": [
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 19 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 21 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 23 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 25 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 27 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 19 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 21 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 23 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 25 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 27 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 19 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 21 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 23 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 25 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 27 saved output"
+      },
+      {
+        "file": "PROJECT_ROOT\\code\\data\\independent_hard_test_prediction_soft_hard.xlsx",
+        "location": "Sheet1 row 4"
+      }
+    ],
+    "full_input_maxdiff": 2.7755575615628914e-17,
+    "prediction_maxdiff": 1.4210854715202004e-14,
+    "pairing_status": "matched all six moduli and both candidate parameters; unique target",
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": true,
+    "target_source_kind": "saved homogenization-derived target at original test geometry",
+    "origin_record_file": "PROJECT_ROOT\\code\\data\\independent_hard_test_prediction_soft_hard.xlsx",
+    "origin_record_location": "Sheet1 row 4",
+    "code_location": "Prediction_without_refinement_high_stiffness_sample.ipynb cells 17/19–23 or 62/63; row[y_cols] -> scaler_y.transform -> physical-unit inverse-transformed predictions",
+    "target_t1": 1.391963650868431,
+    "target_t2": -2.064032877982784,
+    "phase_counts_candidate": [
+      68912,
+      0,
+      56088
+    ],
+    "phase_counts_target": [
+      108296,
+      0,
+      16704
+    ],
+    "same_phase_field": false,
+    "same_interpolated_material_field": true,
+    "different_phase_elements": 39384,
+    "field_max_difference": 0.0,
+    "candidate_homogeneous_field": true,
+    "domain_reference": "expanded 20111-row database",
+    "inside_global_coordinate_bounds": true,
+    "material_group_reference": "expanded 20111-row database",
+    "material_group_rows": 0,
+    "inside_group_coordinate_bounds": null,
+    "joint_reachability_from_coordinate_bounds": "not inferred",
+    "previously_zero_or_roundoff_target_error": true,
+    "zero_audit_status": "equivalent discrete material field supports numerical equality",
+    "audited_calculation_status": "matched all six moduli and both candidate parameters; unique target",
+    "audited_Calculated_storage": 119.40055931634072,
+    "audited_Calculated_loss": 70.47971406586834
+  },
+  {
+    "cohort": "High",
+    "Case": "H4",
+    "paper_table": "S7",
+    "paper_case": 4,
+    "Ep1": 423.0865691,
+    "Ep2": 1.0216605147,
+    "Ep3": 423.0865691,
+    "Epp1": 156.7878024,
+    "Epp2": 0.1184498138,
+    "Epp3": 156.7878024,
+    "t1": -0.131294310092926,
+    "t2": -0.1772493124008179,
+    "Target_storage": 422.9598126185035,
+    "Target_loss": 156.74096903720653,
+    "Predicted_storage": 430.4280395507812,
+    "Predicted_loss": 154.6816101074219,
+    "Calculated_storage": 422.9598126185035,
+    "Calculated_loss": 156.74096903720653,
+    "calculation_source": "code/data/testing_2_hard_all.xlsx; Sheet1 row 5",
+    "request_sources": [
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 21 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 23 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 25 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 27 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 21 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 23 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 25 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 27 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 21 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 23 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 25 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 27 saved output"
+      },
+      {
+        "file": "PROJECT_ROOT\\code\\data\\independent_hard_test_prediction_soft_hard.xlsx",
+        "location": "Sheet1 row 6"
+      }
+    ],
+    "full_input_maxdiff": 2.7755575615628914e-17,
+    "prediction_maxdiff": 5.684341886080802e-14,
+    "pairing_status": "matched all six moduli and both candidate parameters; unique target",
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": true,
+    "target_source_kind": "saved homogenization-derived target at original test geometry",
+    "origin_record_file": "PROJECT_ROOT\\code\\data\\independent_hard_test_prediction_soft_hard.xlsx",
+    "origin_record_location": "Sheet1 row 6",
+    "code_location": "Prediction_without_refinement_high_stiffness_sample.ipynb cells 17/19–23 or 62/63; row[y_cols] -> scaler_y.transform -> physical-unit inverse-transformed predictions",
+    "target_t1": 2.197056874649611,
+    "target_t2": -2.876493034225185,
+    "phase_counts_candidate": [
+      57624,
+      0,
+      67376
+    ],
+    "phase_counts_target": [
+      120032,
+      0,
+      4968
+    ],
+    "same_phase_field": false,
+    "same_interpolated_material_field": true,
+    "different_phase_elements": 62408,
+    "field_max_difference": 0.0,
+    "candidate_homogeneous_field": true,
+    "domain_reference": "expanded 20111-row database",
+    "inside_global_coordinate_bounds": false,
+    "material_group_reference": "expanded 20111-row database",
+    "material_group_rows": 0,
+    "inside_group_coordinate_bounds": null,
+    "joint_reachability_from_coordinate_bounds": "not inferred",
+    "previously_zero_or_roundoff_target_error": true,
+    "zero_audit_status": "equivalent discrete material field supports numerical equality",
+    "audited_calculation_status": "matched all six moduli and both candidate parameters; unique target",
+    "audited_Calculated_storage": 422.9598126185035,
+    "audited_Calculated_loss": 156.74096903720653
+  },
+  {
+    "cohort": "High",
+    "Case": "H5",
+    "paper_table": "S7",
+    "paper_case": 5,
+    "Ep1": 423.0865691,
+    "Ep2": 1.0216605147,
+    "Ep3": 423.0865691,
+    "Epp1": 156.7878024,
+    "Epp2": 0.1184498138,
+    "Epp3": 156.7878024,
+    "t1": 0.5695006847381592,
+    "t2": 3.028961420059204,
+    "Target_storage": 209.4788671645847,
+    "Target_loss": 77.37649466806259,
+    "Predicted_storage": 214.8131408691406,
+    "Predicted_loss": 75.99415588378906,
+    "Calculated_storage": 202.95150747967583,
+    "Calculated_loss": 74.93786856455313,
+    "calculation_source": "code/data/testing_2_hard_all.xlsx; Sheet1 row 6",
+    "request_sources": [
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 21 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 23 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 25 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 27 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 21 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 23 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 25 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 27 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 21 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 23 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 25 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 27 saved output"
+      },
+      {
+        "file": "PROJECT_ROOT\\code\\data\\independent_hard_test_prediction_soft_hard.xlsx",
+        "location": "Sheet1 row 7"
+      }
+    ],
+    "full_input_maxdiff": 0.0,
+    "prediction_maxdiff": 2.842170943040401e-14,
+    "pairing_status": "matched all six moduli and both candidate parameters; unique target",
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": true,
+    "target_source_kind": "saved homogenization-derived target at original test geometry",
+    "origin_record_file": "PROJECT_ROOT\\code\\data\\independent_hard_test_prediction_soft_hard.xlsx",
+    "origin_record_location": "Sheet1 row 7",
+    "code_location": "Prediction_without_refinement_high_stiffness_sample.ipynb cells 17/19–23 or 62/63; row[y_cols] -> scaler_y.transform -> physical-unit inverse-transformed predictions",
+    "target_t1": 0.606690070459253,
+    "target_t2": 2.819459112971966,
+    "phase_counts_candidate": [
+      82672,
+      42328,
+      0
+    ],
+    "phase_counts_target": [
+      84208,
+      40312,
+      480
+    ],
+    "same_phase_field": false,
+    "same_interpolated_material_field": false,
+    "different_phase_elements": 2016,
+    "field_max_difference": 421.9383017742497,
+    "candidate_homogeneous_field": false,
+    "domain_reference": "expanded 20111-row database",
+    "inside_global_coordinate_bounds": true,
+    "material_group_reference": "expanded 20111-row database",
+    "material_group_rows": 0,
+    "inside_group_coordinate_bounds": null,
+    "joint_reachability_from_coordinate_bounds": "not inferred",
+    "previously_zero_or_roundoff_target_error": false,
+    "audited_calculation_status": "matched all six moduli and both candidate parameters; unique target",
+    "audited_Calculated_storage": 202.95150747967585,
+    "audited_Calculated_loss": 74.93786856455313
+  },
+  {
+    "cohort": "High",
+    "Case": "H6",
+    "paper_table": "S7",
+    "paper_case": 6,
+    "Ep1": 34.73885282,
+    "Ep2": 1.0191909085,
+    "Ep3": 34.73885282,
+    "Epp1": 17.54918605,
+    "Epp2": 0.1064047469,
+    "Epp3": 17.54918605,
+    "t1": 2.34349536895752,
+    "t2": 3.167979955673218,
+    "Target_storage": 34.728576946102834,
+    "Target_loss": 17.544050567644344,
+    "Predicted_storage": 35.3607292175293,
+    "Predicted_loss": 15.1849479675293,
+    "Calculated_storage": 32.958742735521234,
+    "Calculated_loss": 16.604582308079582,
+    "calculation_source": "code/data/testing_2_hard_all.xlsx; Sheet1 row 7",
+    "request_sources": [
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 23 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 25 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 27 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 23 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 25 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 27 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 23 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 25 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 27 saved output"
+      },
+      {
+        "file": "PROJECT_ROOT\\code\\data\\independent_hard_test_prediction_soft_hard.xlsx",
+        "location": "Sheet1 row 8"
+      }
+    ],
+    "full_input_maxdiff": 4.440892098500626e-16,
+    "prediction_maxdiff": 3.552713678800501e-15,
+    "pairing_status": "matched all six moduli and both candidate parameters; unique target",
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": true,
+    "target_source_kind": "saved homogenization-derived target at original test geometry",
+    "origin_record_file": "PROJECT_ROOT\\code\\data\\independent_hard_test_prediction_soft_hard.xlsx",
+    "origin_record_location": "Sheet1 row 8",
+    "code_location": "Prediction_without_refinement_high_stiffness_sample.ipynb cells 17/19–23 or 62/63; row[y_cols] -> scaler_y.transform -> physical-unit inverse-transformed predictions",
+    "target_t1": 1.99465584480253,
+    "target_t2": -1.899572940879397,
+    "phase_counts_candidate": [
+      121480,
+      3520,
+      0
+    ],
+    "phase_counts_target": [
+      117792,
+      0,
+      7208
+    ],
+    "same_phase_field": false,
+    "same_interpolated_material_field": false,
+    "different_phase_elements": 7208,
+    "field_max_difference": 33.709547024482696,
+    "candidate_homogeneous_field": false,
+    "domain_reference": "expanded 20111-row database",
+    "inside_global_coordinate_bounds": true,
+    "material_group_reference": "expanded 20111-row database",
+    "material_group_rows": 0,
+    "inside_group_coordinate_bounds": null,
+    "joint_reachability_from_coordinate_bounds": "not inferred",
+    "previously_zero_or_roundoff_target_error": false,
+    "audited_calculation_status": "matched all six moduli and both candidate parameters; unique target",
+    "audited_Calculated_storage": 32.958742735521234,
+    "audited_Calculated_loss": 16.604582308079582
+  },
+  {
+    "cohort": "High",
+    "Case": "H7",
+    "paper_table": "S7",
+    "paper_case": 7,
+    "Ep1": 34.73885282,
+    "Ep2": 1.0191909085,
+    "Ep3": 34.73885282,
+    "Epp1": 17.54918605,
+    "Epp2": 0.1064047469,
+    "Epp3": 17.54918605,
+    "t1": 1.328729867935181,
+    "t2": 1.490710854530334,
+    "Target_storage": 26.58403686584057,
+    "Target_loss": 12.901668761182107,
+    "Predicted_storage": 26.45625686645508,
+    "Predicted_loss": 13.07423114776611,
+    "Calculated_storage": 32.62499694887344,
+    "Calculated_loss": 16.35054682735792,
+    "calculation_source": "code/data/testing_2_hard_all.xlsx; Sheet1 row 8",
+    "request_sources": [
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 23 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 25 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 27 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 23 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 25 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 27 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 23 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 25 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 27 saved output"
+      },
+      {
+        "file": "PROJECT_ROOT\\code\\data\\independent_hard_test_prediction_soft_hard.xlsx",
+        "location": "Sheet1 row 9"
+      }
+    ],
+    "full_input_maxdiff": 4.440892098500626e-16,
+    "prediction_maxdiff": 3.552713678800501e-15,
+    "pairing_status": "matched all six moduli and both candidate parameters; unique target",
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": true,
+    "target_source_kind": "saved homogenization-derived target at original test geometry",
+    "origin_record_file": "PROJECT_ROOT\\code\\data\\independent_hard_test_prediction_soft_hard.xlsx",
+    "origin_record_location": "Sheet1 row 9",
+    "code_location": "Prediction_without_refinement_high_stiffness_sample.ipynb cells 17/19–23 or 62/63; row[y_cols] -> scaler_y.transform -> physical-unit inverse-transformed predictions",
+    "target_t1": -1.725965335930343,
+    "target_t2": -1.174546542242774,
+    "phase_counts_candidate": [
+      107000,
+      3200,
+      14800
+    ],
+    "phase_counts_target": [
+      10864,
+      10832,
+      103304
+    ],
+    "same_phase_field": false,
+    "same_interpolated_material_field": false,
+    "different_phase_elements": 99336,
+    "field_max_difference": 33.709547024482696,
+    "candidate_homogeneous_field": false,
+    "domain_reference": "expanded 20111-row database",
+    "inside_global_coordinate_bounds": true,
+    "material_group_reference": "expanded 20111-row database",
+    "material_group_rows": 0,
+    "inside_group_coordinate_bounds": null,
+    "joint_reachability_from_coordinate_bounds": "not inferred",
+    "previously_zero_or_roundoff_target_error": false,
+    "audited_calculation_status": "matched all six moduli and both candidate parameters; unique target",
+    "audited_Calculated_storage": 32.62499694887344,
+    "audited_Calculated_loss": 16.35054682735792
+  },
+  {
+    "cohort": "High",
+    "Case": "H8",
+    "paper_table": "S7",
+    "paper_case": 8,
+    "Ep1": 34.73885282,
+    "Ep2": 1.0191909085,
+    "Ep3": 34.73885282,
+    "Epp1": 17.54918605,
+    "Epp2": 0.1064047469,
+    "Epp3": 17.54918605,
+    "t1": -0.3947545289993286,
+    "t2": 0.6729370951652527,
+    "Target_storage": 10.588766542101308,
+    "Target_loss": 4.770573486012026,
+    "Predicted_storage": 9.765912055969238,
+    "Predicted_loss": 5.876158237457275,
+    "Calculated_storage": 13.65279045043653,
+    "Calculated_loss": 6.05147576567338,
+    "calculation_source": "code/data/testing_2_hard_all.xlsx; Sheet1 row 9",
+    "request_sources": [
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 23 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 25 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 27 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 23 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 25 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 27 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 23 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 25 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 27 saved output"
+      },
+      {
+        "file": "PROJECT_ROOT\\code\\data\\independent_hard_test_prediction_soft_hard.xlsx",
+        "location": "Sheet1 row 10"
+      }
+    ],
+    "full_input_maxdiff": 0.0,
+    "prediction_maxdiff": 0.0,
+    "pairing_status": "matched all six moduli and both candidate parameters; unique target",
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": true,
+    "target_source_kind": "saved homogenization-derived target at original test geometry",
+    "origin_record_file": "PROJECT_ROOT\\code\\data\\independent_hard_test_prediction_soft_hard.xlsx",
+    "origin_record_location": "Sheet1 row 10",
+    "code_location": "Prediction_without_refinement_high_stiffness_sample.ipynb cells 17/19–23 or 62/63; row[y_cols] -> scaler_y.transform -> physical-unit inverse-transformed predictions",
+    "target_t1": -1.909050196757396,
+    "target_t2": 0.1485385897934268,
+    "phase_counts_candidate": [
+      48232,
+      38208,
+      38560
+    ],
+    "phase_counts_target": [
+      8288,
+      59688,
+      57024
+    ],
+    "same_phase_field": false,
+    "same_interpolated_material_field": false,
+    "different_phase_elements": 58408,
+    "field_max_difference": 33.709547024482696,
+    "candidate_homogeneous_field": false,
+    "domain_reference": "expanded 20111-row database",
+    "inside_global_coordinate_bounds": true,
+    "material_group_reference": "expanded 20111-row database",
+    "material_group_rows": 0,
+    "inside_group_coordinate_bounds": null,
+    "joint_reachability_from_coordinate_bounds": "not inferred",
+    "previously_zero_or_roundoff_target_error": false,
+    "audited_calculation_status": "matched all six moduli and both candidate parameters; unique target",
+    "audited_Calculated_storage": 13.65279045043653,
+    "audited_Calculated_loss": 6.05147576567338
+  },
+  {
+    "cohort": "High",
+    "Case": "H9",
+    "paper_table": "S7",
+    "paper_case": 9,
+    "Ep1": 93.82746887,
+    "Ep2": 1.0195804189,
+    "Ep3": 93.82746887,
+    "Epp1": 61.50772363,
+    "Epp2": 0.1083244285,
+    "Epp3": 61.50772363,
+    "t1": 0.9164104461669922,
+    "t2": 0.7556788921356201,
+    "Target_storage": 93.7995655930898,
+    "Target_loss": 61.48940860423819,
+    "Predicted_storage": 93.84501647949219,
+    "Predicted_loss": 61.14462280273438,
+    "Calculated_storage": 93.7995655930898,
+    "Calculated_loss": 61.48940860423819,
+    "calculation_source": "code/data/testing_2_hard_all.xlsx; Sheet1 row 10",
+    "request_sources": [
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 25 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 27 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 25 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 27 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 25 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 27 saved output"
+      },
+      {
+        "file": "PROJECT_ROOT\\code\\data\\independent_hard_test_prediction_soft_hard.xlsx",
+        "location": "Sheet1 row 11"
+      }
+    ],
+    "full_input_maxdiff": 0.0,
+    "prediction_maxdiff": 7.105427357601002e-15,
+    "pairing_status": "matched all six moduli and both candidate parameters; unique target",
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": true,
+    "target_source_kind": "saved homogenization-derived target at original test geometry",
+    "origin_record_file": "PROJECT_ROOT\\code\\data\\independent_hard_test_prediction_soft_hard.xlsx",
+    "origin_record_location": "Sheet1 row 11",
+    "code_location": "Prediction_without_refinement_high_stiffness_sample.ipynb cells 17/19–23 or 62/63; row[y_cols] -> scaler_y.transform -> physical-unit inverse-transformed predictions",
+    "target_t1": -0.4083298881473052,
+    "target_t2": -2.163036836087749,
+    "phase_counts_candidate": [
+      95424,
+      0,
+      29576
+    ],
+    "phase_counts_target": [
+      47800,
+      0,
+      77200
+    ],
+    "same_phase_field": false,
+    "same_interpolated_material_field": true,
+    "different_phase_elements": 47624,
+    "field_max_difference": 0.0,
+    "candidate_homogeneous_field": true,
+    "domain_reference": "expanded 20111-row database",
+    "inside_global_coordinate_bounds": true,
+    "material_group_reference": "expanded 20111-row database",
+    "material_group_rows": 0,
+    "inside_group_coordinate_bounds": null,
+    "joint_reachability_from_coordinate_bounds": "not inferred",
+    "previously_zero_or_roundoff_target_error": true,
+    "zero_audit_status": "equivalent discrete material field supports numerical equality",
+    "audited_calculation_status": "matched all six moduli and both candidate parameters; unique target",
+    "audited_Calculated_storage": 93.7995655930898,
+    "audited_Calculated_loss": 61.48940860423819
+  },
+  {
+    "cohort": "High",
+    "Case": "H10",
+    "paper_table": "S7",
+    "paper_case": 10,
+    "Ep1": 93.82746887,
+    "Ep2": 1.0195804189,
+    "Ep3": 93.82746887,
+    "Epp1": 61.50772363,
+    "Epp2": 0.1083244285,
+    "Epp3": 61.50772363,
+    "t1": -0.630466639995575,
+    "t2": -0.7837309837341309,
+    "Target_storage": 93.68351802630706,
+    "Target_loss": 61.41230021396505,
+    "Predicted_storage": 93.84708404541016,
+    "Predicted_loss": 61.22137832641602,
+    "Calculated_storage": 93.7995655930898,
+    "Calculated_loss": 61.48940860423819,
+    "calculation_source": "code/data/testing_2_hard_all.xlsx; Sheet1 row 11",
+    "request_sources": [
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 25 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 27 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 25 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 27 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 25 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 27 saved output"
+      },
+      {
+        "file": "PROJECT_ROOT\\code\\data\\independent_hard_test_prediction_soft_hard.xlsx",
+        "location": "Sheet1 row 12"
+      }
+    ],
+    "full_input_maxdiff": 0.0,
+    "prediction_maxdiff": 7.105427357601002e-15,
+    "pairing_status": "matched all six moduli and both candidate parameters; unique target",
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": true,
+    "target_source_kind": "saved homogenization-derived target at original test geometry",
+    "origin_record_file": "PROJECT_ROOT\\code\\data\\independent_hard_test_prediction_soft_hard.xlsx",
+    "origin_record_location": "Sheet1 row 12",
+    "code_location": "Prediction_without_refinement_high_stiffness_sample.ipynb cells 17/19–23 or 62/63; row[y_cols] -> scaler_y.transform -> physical-unit inverse-transformed predictions",
+    "target_t1": -1.252625158811749,
+    "target_t2": -1.247132108788691,
+    "phase_counts_candidate": [
+      39904,
+      0,
+      85096
+    ],
+    "phase_counts_target": [
+      19656,
+      120,
+      105224
+    ],
+    "same_phase_field": false,
+    "same_interpolated_material_field": false,
+    "different_phase_elements": 20248,
+    "field_max_difference": 92.78004886870852,
+    "candidate_homogeneous_field": true,
+    "domain_reference": "expanded 20111-row database",
+    "inside_global_coordinate_bounds": true,
+    "material_group_reference": "expanded 20111-row database",
+    "material_group_rows": 0,
+    "inside_group_coordinate_bounds": null,
+    "joint_reachability_from_coordinate_bounds": "not inferred",
+    "previously_zero_or_roundoff_target_error": false,
+    "audited_calculation_status": "matched all six moduli and both candidate parameters; unique target",
+    "audited_Calculated_storage": 93.7995655930898,
+    "audited_Calculated_loss": 61.48940860423819
+  },
+  {
+    "cohort": "High",
+    "Case": "H11",
+    "paper_table": "S7",
+    "paper_case": 11,
+    "Ep1": 93.82746887,
+    "Ep2": 1.0195804189,
+    "Ep3": 93.82746887,
+    "Epp1": 61.50772363,
+    "Epp2": 0.1083244285,
+    "Epp3": 61.50772363,
+    "t1": 1.237994432449341,
+    "t2": 1.123790621757507,
+    "Target_storage": 93.7995655930898,
+    "Target_loss": 61.48940860423819,
+    "Predicted_storage": 94.4693603515625,
+    "Predicted_loss": 58.73178863525391,
+    "Calculated_storage": 93.7995655930898,
+    "Calculated_loss": 61.48940860423819,
+    "calculation_source": "code/data/testing_2_hard_all.xlsx; Sheet1 row 12",
+    "request_sources": [
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 25 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 27 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 25 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 27 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 25 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 27 saved output"
+      },
+      {
+        "file": "PROJECT_ROOT\\code\\data\\independent_hard_test_prediction_soft_hard.xlsx",
+        "location": "Sheet1 row 13"
+      }
+    ],
+    "full_input_maxdiff": 2.220446049250313e-16,
+    "prediction_maxdiff": 7.105427357601002e-15,
+    "pairing_status": "matched all six moduli and both candidate parameters; unique target",
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": true,
+    "target_source_kind": "saved homogenization-derived target at original test geometry",
+    "origin_record_file": "PROJECT_ROOT\\code\\data\\independent_hard_test_prediction_soft_hard.xlsx",
+    "origin_record_location": "Sheet1 row 13",
+    "code_location": "Prediction_without_refinement_high_stiffness_sample.ipynb cells 17/19–23 or 62/63; row[y_cols] -> scaler_y.transform -> physical-unit inverse-transformed predictions",
+    "target_t1": 0.6711173683342766,
+    "target_t2": -0.8018289402378498,
+    "phase_counts_candidate": [
+      104912,
+      0,
+      20088
+    ],
+    "phase_counts_target": [
+      86392,
+      0,
+      38608
+    ],
+    "same_phase_field": false,
+    "same_interpolated_material_field": true,
+    "different_phase_elements": 18520,
+    "field_max_difference": 0.0,
+    "candidate_homogeneous_field": true,
+    "domain_reference": "expanded 20111-row database",
+    "inside_global_coordinate_bounds": true,
+    "material_group_reference": "expanded 20111-row database",
+    "material_group_rows": 0,
+    "inside_group_coordinate_bounds": null,
+    "joint_reachability_from_coordinate_bounds": "not inferred",
+    "previously_zero_or_roundoff_target_error": true,
+    "zero_audit_status": "equivalent discrete material field supports numerical equality",
+    "audited_calculation_status": "matched all six moduli and both candidate parameters; unique target",
+    "audited_Calculated_storage": 93.7995655930898,
+    "audited_Calculated_loss": 61.48940860423819
+  },
+  {
+    "cohort": "High",
+    "Case": "H12",
+    "paper_table": "S7",
+    "paper_case": 12,
+    "Ep1": 317.8309826,
+    "Ep2": 1.1191329804,
+    "Ep3": 317.8309826,
+    "Epp1": 136.9403825,
+    "Epp2": 0.4632579798,
+    "Epp3": 136.9403825,
+    "t1": 0.7159686088562012,
+    "t2": 3.351237773895264,
+    "Target_storage": 169.7874562151696,
+    "Target_loss": 73.04006564217508,
+    "Predicted_storage": 165.41162109375,
+    "Predicted_loss": 74.12853240966797,
+    "Calculated_storage": 170.44377130482158,
+    "Calculated_loss": 73.4193764603305,
+    "calculation_source": "code/data/testing_2_hard_all.xlsx; Sheet1 row 13",
+    "request_sources": [
+      {
+        "file": "PROJECT_ROOT\\code\\data\\independent_hard_test_prediction_soft_hard.xlsx",
+        "location": "Sheet1 row 14"
+      }
+    ],
+    "full_input_maxdiff": 0.0,
+    "prediction_maxdiff": 0.0,
+    "pairing_status": "matched all six moduli and both candidate parameters; unique target",
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": true,
+    "target_source_kind": "saved homogenization-derived target at original test geometry",
+    "origin_record_file": "PROJECT_ROOT\\code\\data\\independent_hard_test_prediction_soft_hard.xlsx",
+    "origin_record_location": "Sheet1 row 14",
+    "code_location": "Prediction_without_refinement_high_stiffness_sample.ipynb cells 17/19–23 or 62/63; row[y_cols] -> scaler_y.transform -> physical-unit inverse-transformed predictions",
+    "target_t1": -0.2635800946977844,
+    "target_t2": 0.08540663048166941,
+    "phase_counts_candidate": [
+      88072,
+      36928,
+      0
+    ],
+    "phase_counts_target": [
+      52896,
+      12488,
+      59616
+    ],
+    "same_phase_field": false,
+    "same_interpolated_material_field": false,
+    "different_phase_elements": 72104,
+    "field_max_difference": 316.61684556575295,
+    "candidate_homogeneous_field": false,
+    "domain_reference": "expanded 20111-row database",
+    "inside_global_coordinate_bounds": true,
+    "material_group_reference": "expanded 20111-row database",
+    "material_group_rows": 0,
+    "inside_group_coordinate_bounds": null,
+    "joint_reachability_from_coordinate_bounds": "not inferred",
+    "previously_zero_or_roundoff_target_error": false,
+    "audited_calculation_status": "matched all six moduli and both candidate parameters; unique target",
+    "audited_Calculated_storage": 170.44377130482158,
+    "audited_Calculated_loss": 73.4193764603305
+  },
+  {
+    "cohort": "High",
+    "Case": "H13",
+    "paper_table": "S7",
+    "paper_case": 13,
+    "Ep1": 317.8309826,
+    "Ep2": 1.1191329804,
+    "Ep3": 317.8309826,
+    "Epp1": 136.9403825,
+    "Epp2": 0.4632579798,
+    "Epp3": 136.9403825,
+    "t1": 0.005271792411804199,
+    "t2": -0.02482414245605469,
+    "Target_storage": 317.7360067342234,
+    "Target_loss": 136.8994985009201,
+    "Predicted_storage": 315.7123107910156,
+    "Predicted_loss": 136.9409942626953,
+    "Calculated_storage": 317.7360067342234,
+    "Calculated_loss": 136.89949850092012,
+    "calculation_source": "code/data/testing_2_hard_all.xlsx; Sheet1 row 14",
+    "request_sources": [
+      {
+        "file": "PROJECT_ROOT\\code\\data\\independent_hard_test_prediction_soft_hard.xlsx",
+        "location": "Sheet1 row 15"
+      }
+    ],
+    "full_input_maxdiff": 0.0,
+    "prediction_maxdiff": 0.0,
+    "pairing_status": "matched all six moduli and both candidate parameters; unique target",
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": true,
+    "target_source_kind": "saved homogenization-derived target at original test geometry",
+    "origin_record_file": "PROJECT_ROOT\\code\\data\\independent_hard_test_prediction_soft_hard.xlsx",
+    "origin_record_location": "Sheet1 row 15",
+    "code_location": "Prediction_without_refinement_high_stiffness_sample.ipynb cells 17/19–23 or 62/63; row[y_cols] -> scaler_y.transform -> physical-unit inverse-transformed predictions",
+    "target_t1": 1.711055768358081,
+    "target_t2": 0.5544874131722546,
+    "phase_counts_candidate": [
+      62864,
+      0,
+      62136
+    ],
+    "phase_counts_target": [
+      113848,
+      0,
+      11152
+    ],
+    "same_phase_field": false,
+    "same_interpolated_material_field": true,
+    "different_phase_elements": 50984,
+    "field_max_difference": 0.0,
+    "candidate_homogeneous_field": true,
+    "domain_reference": "expanded 20111-row database",
+    "inside_global_coordinate_bounds": true,
+    "material_group_reference": "expanded 20111-row database",
+    "material_group_rows": 0,
+    "inside_group_coordinate_bounds": null,
+    "joint_reachability_from_coordinate_bounds": "not inferred",
+    "previously_zero_or_roundoff_target_error": true,
+    "zero_audit_status": "equivalent discrete material field supports numerical equality",
+    "audited_calculation_status": "matched all six moduli and both candidate parameters; unique target",
+    "audited_Calculated_storage": 317.7360067342234,
+    "audited_Calculated_loss": 136.89949850092012
+  },
+  {
+    "cohort": "High",
+    "Case": "H14",
+    "paper_table": "S7",
+    "paper_case": 14,
+    "Ep1": 317.8309826,
+    "Ep2": 1.1191329804,
+    "Ep3": 317.8309826,
+    "Epp1": 136.9403825,
+    "Epp2": 0.4632579798,
+    "Epp3": 136.9403825,
+    "t1": -0.2408074736595154,
+    "t2": -0.3006696701049805,
+    "Target_storage": 317.7360067342234,
+    "Target_loss": 136.8994985009201,
+    "Predicted_storage": 322.5938415527344,
+    "Predicted_loss": 139.1390380859375,
+    "Calculated_storage": 317.7360067342234,
+    "Calculated_loss": 136.89949850092012,
+    "calculation_source": "code/data/testing_2_hard_all.xlsx; Sheet1 row 15",
+    "request_sources": [
+      {
+        "file": "PROJECT_ROOT\\code\\data\\independent_hard_test_prediction_soft_hard.xlsx",
+        "location": "Sheet1 row 16"
+      }
+    ],
+    "full_input_maxdiff": 0.0,
+    "prediction_maxdiff": 0.0,
+    "pairing_status": "matched all six moduli and both candidate parameters; unique target",
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": true,
+    "target_source_kind": "saved homogenization-derived target at original test geometry",
+    "origin_record_file": "PROJECT_ROOT\\code\\data\\independent_hard_test_prediction_soft_hard.xlsx",
+    "origin_record_location": "Sheet1 row 16",
+    "code_location": "Prediction_without_refinement_high_stiffness_sample.ipynb cells 17/19–23 or 62/63; row[y_cols] -> scaler_y.transform -> physical-unit inverse-transformed predictions",
+    "target_t1": -1.801957307049842,
+    "target_t2": -2.721297523680014,
+    "phase_counts_candidate": [
+      54048,
+      0,
+      70952
+    ],
+    "phase_counts_target": [
+      9704,
+      0,
+      115296
+    ],
+    "same_phase_field": false,
+    "same_interpolated_material_field": true,
+    "different_phase_elements": 44344,
+    "field_max_difference": 0.0,
+    "candidate_homogeneous_field": true,
+    "domain_reference": "expanded 20111-row database",
+    "inside_global_coordinate_bounds": true,
+    "material_group_reference": "expanded 20111-row database",
+    "material_group_rows": 0,
+    "inside_group_coordinate_bounds": null,
+    "joint_reachability_from_coordinate_bounds": "not inferred",
+    "previously_zero_or_roundoff_target_error": true,
+    "zero_audit_status": "equivalent discrete material field supports numerical equality",
+    "audited_calculation_status": "matched all six moduli and both candidate parameters; unique target",
+    "audited_Calculated_storage": 317.7360067342234,
+    "audited_Calculated_loss": 136.89949850092012
+  },
+  {
+    "cohort": "High",
+    "Case": "H15",
+    "paper_table": "S7",
+    "paper_case": 15,
+    "Ep1": 34.73885282,
+    "Ep2": 2.709044051,
+    "Ep3": 34.73885282,
+    "Epp1": 17.54918605,
+    "Epp2": 2.008446078,
+    "Epp3": 17.54918605,
+    "t1": 2.134128332,
+    "t2": 2.856953621,
+    "Target_storage": 24.85113999466199,
+    "Target_loss": 13.103510760846923,
+    "Predicted_storage": 25.11660957,
+    "Predicted_loss": 10.2885561,
+    "Calculated_storage": 32.29129949,
+    "Calculated_loss": 16.40851379,
+    "calculation_source": "code/data/testing_2_hard_all.xlsx; Sheet1 row 16",
+    "request_sources": [
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 66 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 68 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 70 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 72 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 74 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 76 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 78 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 80 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 82 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 84 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 86 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 66 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 68 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 70 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 72 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 74 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 76 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 78 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 80 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 82 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 84 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 86 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 66 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 68 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 70 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 72 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 74 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 76 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 78 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 80 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 82 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 84 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 86 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "PROJECT_ROOT\\code\\data\\independent_hard_selected15_prediction_soft_hard.xlsx",
+        "location": "Sheet1 row 3"
+      }
+    ],
+    "full_input_maxdiff": 4.000000330961484e-10,
+    "prediction_maxdiff": 3.3642564289948496e-09,
+    "pairing_status": "matched all six moduli and both candidate parameters; unique target",
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": true,
+    "target_source_kind": "saved homogenization-derived target at original test geometry",
+    "origin_record_file": "PROJECT_ROOT\\code\\data\\independent_hard_selected15_prediction_soft_hard.xlsx",
+    "origin_record_location": "Sheet1 row 3",
+    "code_location": "Prediction_without_refinement_high_stiffness_sample.ipynb cells 17/19–23 or 62/63; row[y_cols] -> scaler_y.transform -> physical-unit inverse-transformed predictions",
+    "target_t1": 0.9186752240733438,
+    "target_t2": 1.706649252424374,
+    "phase_counts_candidate": [
+      119408,
+      5288,
+      304
+    ],
+    "phase_counts_target": [
+      95496,
+      18352,
+      11152
+    ],
+    "same_phase_field": false,
+    "same_interpolated_material_field": false,
+    "different_phase_elements": 29200,
+    "field_max_difference": 32.02020078723154,
+    "candidate_homogeneous_field": false,
+    "domain_reference": "expanded 20111-row database",
+    "inside_global_coordinate_bounds": true,
+    "material_group_reference": "expanded 20111-row database",
+    "material_group_rows": 0,
+    "inside_group_coordinate_bounds": null,
+    "joint_reachability_from_coordinate_bounds": "not inferred",
+    "previously_zero_or_roundoff_target_error": false,
+    "audited_calculation_status": "matched all six moduli and both candidate parameters; unique target",
+    "audited_Calculated_storage": 32.29129949,
+    "audited_Calculated_loss": 16.40851379
+  },
+  {
+    "cohort": "High",
+    "Case": "H16",
+    "paper_table": "S7",
+    "paper_case": 16,
+    "Ep1": 93.82746887,
+    "Ep2": 1.419207629,
+    "Ep3": 93.82746887,
+    "Epp1": 61.50772363,
+    "Epp2": 1.045249606,
+    "Epp3": 61.50772363,
+    "t1": 0.408586383,
+    "t2": 2.282337189,
+    "Target_storage": 44.143271958268265,
+    "Target_loss": 29.246765696169224,
+    "Predicted_storage": 44.62615967,
+    "Predicted_loss": 29.25534821,
+    "Calculated_storage": 41.68118177,
+    "Calculated_loss": 27.45879004,
+    "calculation_source": "code/data/testing_2_hard_all.xlsx; Sheet1 row 17",
+    "request_sources": [
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 68 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 70 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 72 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 74 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 76 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 78 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 80 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 82 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 84 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 86 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 68 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 70 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 72 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 74 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 76 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 78 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 80 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 82 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 84 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 86 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 68 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 70 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 72 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 74 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 76 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 78 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 80 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 82 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 84 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 86 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "PROJECT_ROOT\\code\\data\\independent_hard_selected15_prediction_soft_hard.xlsx",
+        "location": "Sheet1 row 4"
+      }
+    ],
+    "full_input_maxdiff": 2.7929702994811123e-10,
+    "prediction_maxdiff": 4.43359482460437e-09,
+    "pairing_status": "matched all six moduli and both candidate parameters; unique target",
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": true,
+    "target_source_kind": "saved homogenization-derived target at original test geometry",
+    "origin_record_file": "PROJECT_ROOT\\code\\data\\independent_hard_selected15_prediction_soft_hard.xlsx",
+    "origin_record_location": "Sheet1 row 4",
+    "code_location": "Prediction_without_refinement_high_stiffness_sample.ipynb cells 17/19–23 or 62/63; row[y_cols] -> scaler_y.transform -> physical-unit inverse-transformed predictions",
+    "target_t1": -0.4895720415212992,
+    "target_t2": 0.1918907994300043,
+    "phase_counts_candidate": [
+      77248,
+      43720,
+      4032
+    ],
+    "phase_counts_target": [
+      44776,
+      24664,
+      55560
+    ],
+    "same_phase_field": false,
+    "same_interpolated_material_field": false,
+    "different_phase_elements": 76192,
+    "field_max_difference": 92.38054153478313,
+    "candidate_homogeneous_field": false,
+    "domain_reference": "expanded 20111-row database",
+    "inside_global_coordinate_bounds": true,
+    "material_group_reference": "expanded 20111-row database",
+    "material_group_rows": 0,
+    "inside_group_coordinate_bounds": null,
+    "joint_reachability_from_coordinate_bounds": "not inferred",
+    "previously_zero_or_roundoff_target_error": false,
+    "audited_calculation_status": "matched all six moduli and both candidate parameters; unique target",
+    "audited_Calculated_storage": 41.68118177,
+    "audited_Calculated_loss": 27.45879004
+  },
+  {
+    "cohort": "High",
+    "Case": "H17",
+    "paper_table": "S7",
+    "paper_case": 17,
+    "Ep1": 119.4362686,
+    "Ep2": 5.691713651,
+    "Ep3": 119.4362686,
+    "Epp1": 70.50075749,
+    "Epp2": 0.870204949,
+    "Epp3": 70.50075749,
+    "t1": -3.038238287,
+    "t2": -0.636022449,
+    "Target_storage": 70.71472128053645,
+    "Target_loss": 39.26506376017159,
+    "Predicted_storage": 70.66943359,
+    "Predicted_loss": 38.64819336,
+    "Calculated_storage": 65.53039277,
+    "Calculated_loss": 36.47513667,
+    "calculation_source": "code/data/testing_2_hard_all.xlsx; Sheet1 row 18",
+    "request_sources": [
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 70 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 72 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 74 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 76 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 78 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 80 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 82 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 84 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 86 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 70 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 72 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 74 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 76 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 78 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 80 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 82 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 84 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 86 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 70 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 72 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 74 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 76 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 78 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 80 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 82 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 84 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 86 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "PROJECT_ROOT\\code\\data\\independent_hard_selected15_prediction_soft_hard.xlsx",
+        "location": "Sheet1 row 5"
+      }
+    ],
+    "full_input_maxdiff": 4.602661585195733e-10,
+    "prediction_maxdiff": 3.75000297481165e-09,
+    "pairing_status": "matched all six moduli and both candidate parameters; unique target",
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": true,
+    "target_source_kind": "saved homogenization-derived target at original test geometry",
+    "origin_record_file": "PROJECT_ROOT\\code\\data\\independent_hard_selected15_prediction_soft_hard.xlsx",
+    "origin_record_location": "Sheet1 row 5",
+    "code_location": "Prediction_without_refinement_high_stiffness_sample.ipynb cells 17/19–23 or 62/63; row[y_cols] -> scaler_y.transform -> physical-unit inverse-transformed predictions",
+    "target_t1": 0.7373428549140018,
+    "target_t2": 2.127514612856886,
+    "phase_counts_candidate": [
+      0,
+      39664,
+      85336
+    ],
+    "phase_counts_target": [
+      88864,
+      30520,
+      5616
+    ],
+    "same_phase_field": false,
+    "same_interpolated_material_field": false,
+    "different_phase_elements": 119384,
+    "field_max_difference": 113.71043499473822,
+    "candidate_homogeneous_field": false,
+    "domain_reference": "expanded 20111-row database",
+    "inside_global_coordinate_bounds": true,
+    "material_group_reference": "expanded 20111-row database",
+    "material_group_rows": 0,
+    "inside_group_coordinate_bounds": null,
+    "joint_reachability_from_coordinate_bounds": "not inferred",
+    "previously_zero_or_roundoff_target_error": false,
+    "audited_calculation_status": "matched all six moduli and both candidate parameters; unique target",
+    "audited_Calculated_storage": 65.53039277,
+    "audited_Calculated_loss": 36.47513667
+  },
+  {
+    "cohort": "High",
+    "Case": "H18",
+    "paper_table": "S7",
+    "paper_case": 18,
+    "Ep1": 93.82746887,
+    "Ep2": 1.419207629,
+    "Ep3": 93.82746887,
+    "Epp1": 61.50772363,
+    "Epp2": 1.045249606,
+    "Epp3": 61.50772363,
+    "t1": -0.041383922,
+    "t2": 0.031370342,
+    "Target_storage": 84.5902524548373,
+    "Target_loss": 55.47588786251226,
+    "Predicted_storage": 85.84747314,
+    "Predicted_loss": 54.74511719,
+    "Calculated_storage": 90.59022218,
+    "Calculated_loss": 59.39357408,
+    "calculation_source": "code/data/testing_2_hard_all.xlsx; Sheet1 row 19",
+    "request_sources": [
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 72 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 74 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 76 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 78 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 80 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 82 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 84 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 86 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 72 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 74 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 76 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 78 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 80 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 82 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 84 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 86 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 72 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 74 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 76 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 78 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 80 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 82 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 84 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 86 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "PROJECT_ROOT\\code\\data\\independent_hard_selected15_prediction_soft_hard.xlsx",
+        "location": "Sheet1 row 6"
+      }
+    ],
+    "full_input_maxdiff": 2.2219848877513826e-10,
+    "prediction_maxdiff": 4.5312447127798805e-09,
+    "pairing_status": "matched all six moduli and both candidate parameters; unique target",
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": true,
+    "target_source_kind": "saved homogenization-derived target at original test geometry",
+    "origin_record_file": "PROJECT_ROOT\\code\\data\\independent_hard_selected15_prediction_soft_hard.xlsx",
+    "origin_record_location": "Sheet1 row 6",
+    "code_location": "Prediction_without_refinement_high_stiffness_sample.ipynb cells 17/19–23 or 62/63; row[y_cols] -> scaler_y.transform -> physical-unit inverse-transformed predictions",
+    "target_t1": 2.018653154819218,
+    "target_t2": 2.941036832510591,
+    "phase_counts_candidate": [
+      60960,
+      2792,
+      61248
+    ],
+    "phase_counts_target": [
+      118104,
+      6808,
+      88
+    ],
+    "same_phase_field": false,
+    "same_interpolated_material_field": false,
+    "different_phase_elements": 63952,
+    "field_max_difference": 92.38054153478313,
+    "candidate_homogeneous_field": false,
+    "domain_reference": "expanded 20111-row database",
+    "inside_global_coordinate_bounds": true,
+    "material_group_reference": "expanded 20111-row database",
+    "material_group_rows": 0,
+    "inside_group_coordinate_bounds": null,
+    "joint_reachability_from_coordinate_bounds": "not inferred",
+    "previously_zero_or_roundoff_target_error": false,
+    "audited_calculation_status": "matched all six moduli and both candidate parameters; unique target",
+    "audited_Calculated_storage": 90.59022218,
+    "audited_Calculated_loss": 59.39357408
+  },
+  {
+    "cohort": "High",
+    "Case": "H19",
+    "paper_table": "S7",
+    "paper_case": 19,
+    "Ep1": 423.0865691,
+    "Ep2": 1.011951714,
+    "Ep3": 423.0865691,
+    "Epp1": 156.7878024,
+    "Epp2": 0.06922802,
+    "Epp3": 156.7878024,
+    "t1": 0.097646475,
+    "t2": 2.744132519,
+    "Target_storage": 148.8389475513938,
+    "Target_loss": 54.76329882869139,
+    "Predicted_storage": 146.7688751,
+    "Predicted_loss": 52.99786758,
+    "Calculated_storage": 140.6894205,
+    "Calculated_loss": 51.75213537,
+    "calculation_source": "code/data/testing_2_hard_all.xlsx; Sheet1 row 20",
+    "request_sources": [
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 74 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 76 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 78 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 80 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 82 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 84 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 86 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 74 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 76 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 78 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 80 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 82 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 84 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 86 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 74 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 76 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 78 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 80 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 82 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 84 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 86 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "PROJECT_ROOT\\code\\data\\independent_hard_selected15_prediction_soft_hard.xlsx",
+        "location": "Sheet1 row 7"
+      }
+    ],
+    "full_input_maxdiff": 3.000000248221113e-10,
+    "prediction_maxdiff": 2.2070310023991624e-08,
+    "pairing_status": "matched all six moduli and both candidate parameters; unique target",
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": true,
+    "target_source_kind": "saved homogenization-derived target at original test geometry",
+    "origin_record_file": "PROJECT_ROOT\\code\\data\\independent_hard_selected15_prediction_soft_hard.xlsx",
+    "origin_record_location": "Sheet1 row 7",
+    "code_location": "Prediction_without_refinement_high_stiffness_sample.ipynb cells 17/19–23 or 62/63; row[y_cols] -> scaler_y.transform -> physical-unit inverse-transformed predictions",
+    "target_t1": 0.1567416706726616,
+    "target_t2": 2.389554502048947,
+    "phase_counts_candidate": [
+      65888,
+      58272,
+      840
+    ],
+    "phase_counts_target": [
+      68264,
+      53648,
+      3088
+    ],
+    "same_phase_field": false,
+    "same_interpolated_material_field": false,
+    "different_phase_elements": 4624,
+    "field_max_difference": 421.94800766260073,
+    "candidate_homogeneous_field": false,
+    "domain_reference": "expanded 20111-row database",
+    "inside_global_coordinate_bounds": true,
+    "material_group_reference": "expanded 20111-row database",
+    "material_group_rows": 0,
+    "inside_group_coordinate_bounds": null,
+    "joint_reachability_from_coordinate_bounds": "not inferred",
+    "previously_zero_or_roundoff_target_error": false,
+    "audited_calculation_status": "matched all six moduli and both candidate parameters; unique target",
+    "audited_Calculated_storage": 140.6894205,
+    "audited_Calculated_loss": 51.75213537
+  },
+  {
+    "cohort": "High",
+    "Case": "H20",
+    "paper_table": "S7",
+    "paper_case": 20,
+    "Ep1": 317.8309826,
+    "Ep2": 5.999401512,
+    "Ep3": 317.8309826,
+    "Epp1": 136.9403825,
+    "Epp2": 0.003760399,
+    "Epp3": 136.9403825,
+    "t1": 0.524500132,
+    "t2": 3.005598307,
+    "Target_storage": 156.10211377477884,
+    "Target_loss": 63.090878752266875,
+    "Predicted_storage": 155.0671692,
+    "Predicted_loss": 63.86455154,
+    "Calculated_storage": 153.6162333,
+    "Calculated_loss": 63.54293574,
+    "calculation_source": "code/data/testing_2_hard_all.xlsx; Sheet1 row 21",
+    "request_sources": [
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 76 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 78 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 80 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 82 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 84 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 86 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 76 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 78 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 80 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 82 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 84 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 86 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 76 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 78 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 80 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 82 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 84 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 86 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "PROJECT_ROOT\\code\\data\\independent_hard_selected15_prediction_soft_hard.xlsx",
+        "location": "Sheet1 row 8"
+      }
+    ],
+    "full_input_maxdiff": 5.000000413701855e-10,
+    "prediction_maxdiff": 1.0546870043981471e-08,
+    "pairing_status": "matched all six moduli and both candidate parameters; unique target",
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": true,
+    "target_source_kind": "saved homogenization-derived target at original test geometry",
+    "origin_record_file": "PROJECT_ROOT\\code\\data\\independent_hard_selected15_prediction_soft_hard.xlsx",
+    "origin_record_location": "Sheet1 row 8",
+    "code_location": "Prediction_without_refinement_high_stiffness_sample.ipynb cells 17/19–23 or 62/63; row[y_cols] -> scaler_y.transform -> physical-unit inverse-transformed predictions",
+    "target_t1": -1.584319338643459,
+    "target_t2": -0.5095312259532054,
+    "phase_counts_candidate": [
+      81256,
+      43744,
+      0
+    ],
+    "phase_counts_target": [
+      13144,
+      31008,
+      80848
+    ],
+    "same_phase_field": false,
+    "same_interpolated_material_field": false,
+    "different_phase_elements": 111856,
+    "field_max_difference": 311.73804096830924,
+    "candidate_homogeneous_field": false,
+    "domain_reference": "expanded 20111-row database",
+    "inside_global_coordinate_bounds": true,
+    "material_group_reference": "expanded 20111-row database",
+    "material_group_rows": 0,
+    "inside_group_coordinate_bounds": null,
+    "joint_reachability_from_coordinate_bounds": "not inferred",
+    "previously_zero_or_roundoff_target_error": false,
+    "audited_calculation_status": "matched all six moduli and both candidate parameters; unique target",
+    "audited_Calculated_storage": 153.6162333,
+    "audited_Calculated_loss": 63.54293574
+  },
+  {
+    "cohort": "High",
+    "Case": "H21",
+    "paper_table": "S7",
+    "paper_case": 21,
+    "Ep1": 423.0865691,
+    "Ep2": 1.011951714,
+    "Ep3": 423.0865691,
+    "Epp1": 156.7878024,
+    "Epp2": 0.06922802,
+    "Epp3": 156.7878024,
+    "t1": 0.771469235,
+    "t2": 2.994650364,
+    "Target_storage": 242.3624242493434,
+    "Target_loss": 89.53912749476528,
+    "Predicted_storage": 245.5591278,
+    "Predicted_loss": 86.00766754,
+    "Calculated_storage": 237.1532784,
+    "Calculated_loss": 87.60651554,
+    "calculation_source": "code/data/testing_2_hard_all.xlsx; Sheet1 row 22",
+    "request_sources": [
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 78 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 80 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 82 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 84 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 86 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 78 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 80 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 82 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 84 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 86 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 78 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 80 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 82 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 84 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 86 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "PROJECT_ROOT\\code\\data\\independent_hard_selected15_prediction_soft_hard.xlsx",
+        "location": "Sheet1 row 9"
+      }
+    ],
+    "full_input_maxdiff": 4.2022707535949166e-10,
+    "prediction_maxdiff": 7.617188657604856e-09,
+    "pairing_status": "matched all six moduli and both candidate parameters; unique target",
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": true,
+    "target_source_kind": "saved homogenization-derived target at original test geometry",
+    "origin_record_file": "PROJECT_ROOT\\code\\data\\independent_hard_selected15_prediction_soft_hard.xlsx",
+    "origin_record_location": "Sheet1 row 9",
+    "code_location": "Prediction_without_refinement_high_stiffness_sample.ipynb cells 17/19–23 or 62/63; row[y_cols] -> scaler_y.transform -> physical-unit inverse-transformed predictions",
+    "target_t1": 0.8084671123394669,
+    "target_t2": 2.659175098160704,
+    "phase_counts_candidate": [
+      90408,
+      34592,
+      0
+    ],
+    "phase_counts_target": [
+      91440,
+      32304,
+      1256
+    ],
+    "same_phase_field": false,
+    "same_interpolated_material_field": false,
+    "different_phase_elements": 2288,
+    "field_max_difference": 421.94800766260073,
+    "candidate_homogeneous_field": false,
+    "domain_reference": "expanded 20111-row database",
+    "inside_global_coordinate_bounds": true,
+    "material_group_reference": "expanded 20111-row database",
+    "material_group_rows": 0,
+    "inside_group_coordinate_bounds": null,
+    "joint_reachability_from_coordinate_bounds": "not inferred",
+    "previously_zero_or_roundoff_target_error": false,
+    "audited_calculation_status": "matched all six moduli and both candidate parameters; unique target",
+    "audited_Calculated_storage": 237.1532784,
+    "audited_Calculated_loss": 87.60651554
+  },
+  {
+    "cohort": "High",
+    "Case": "H22",
+    "paper_table": "S7",
+    "paper_case": 22,
+    "Ep1": 317.8309826,
+    "Ep2": 5.999401512,
+    "Ep3": 317.8309826,
+    "Epp1": 136.9403825,
+    "Epp2": 0.003760399,
+    "Epp3": 136.9403825,
+    "t1": 1.08489418,
+    "t2": 2.84133482,
+    "Target_storage": 228.7994155497899,
+    "Target_loss": 96.96831018716709,
+    "Predicted_storage": 225.6876984,
+    "Predicted_loss": 87.68286133,
+    "Calculated_storage": 223.2891263,
+    "Calculated_loss": 94.74853621,
+    "calculation_source": "code/data/testing_2_hard_all.xlsx; Sheet1 row 23",
+    "request_sources": [
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 80 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 82 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 84 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 86 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 80 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 82 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 84 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 86 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 80 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 82 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 84 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 86 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "PROJECT_ROOT\\code\\data\\independent_hard_selected15_prediction_soft_hard.xlsx",
+        "location": "Sheet1 row 10"
+      }
+    ],
+    "full_input_maxdiff": 5.000000413701855e-10,
+    "prediction_maxdiff": 3.5742175441555446e-08,
+    "pairing_status": "matched all six moduli and both candidate parameters; unique target",
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": true,
+    "target_source_kind": "saved homogenization-derived target at original test geometry",
+    "origin_record_file": "PROJECT_ROOT\\code\\data\\independent_hard_selected15_prediction_soft_hard.xlsx",
+    "origin_record_location": "Sheet1 row 10",
+    "code_location": "Prediction_without_refinement_high_stiffness_sample.ipynb cells 17/19–23 or 62/63; row[y_cols] -> scaler_y.transform -> physical-unit inverse-transformed predictions",
+    "target_t1": -2.478127493614733,
+    "target_t2": -1.129667593226711,
+    "phase_counts_candidate": [
+      100848,
+      23792,
+      360
+    ],
+    "phase_counts_target": [
+      2440,
+      20312,
+      102248
+    ],
+    "same_phase_field": false,
+    "same_interpolated_material_field": false,
+    "different_phase_elements": 122200,
+    "field_max_difference": 311.73804096830924,
+    "candidate_homogeneous_field": false,
+    "domain_reference": "expanded 20111-row database",
+    "inside_global_coordinate_bounds": true,
+    "material_group_reference": "expanded 20111-row database",
+    "material_group_rows": 0,
+    "inside_group_coordinate_bounds": null,
+    "joint_reachability_from_coordinate_bounds": "not inferred",
+    "previously_zero_or_roundoff_target_error": false,
+    "audited_calculation_status": "matched all six moduli and both candidate parameters; unique target",
+    "audited_Calculated_storage": 223.2891263,
+    "audited_Calculated_loss": 94.74853621
+  },
+  {
+    "cohort": "High",
+    "Case": "H23",
+    "paper_table": "S7",
+    "paper_case": 23,
+    "Ep1": 423.0865691,
+    "Ep2": 1.011951714,
+    "Ep3": 423.0865691,
+    "Epp1": 156.7878024,
+    "Epp2": 0.06922802,
+    "Epp3": 156.7878024,
+    "t1": -3.004078388,
+    "t2": -0.886521578,
+    "Target_storage": 272.84787655051997,
+    "Target_loss": 100.4754977484774,
+    "Predicted_storage": 275.0975647,
+    "Predicted_loss": 90.44161224,
+    "Calculated_storage": 256.1127478,
+    "Calculated_loss": 94.66477697,
+    "calculation_source": "code/data/testing_2_hard_all.xlsx; Sheet1 row 24",
+    "request_sources": [
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 82 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 84 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 86 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 82 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 84 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 86 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 82 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 84 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 86 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "PROJECT_ROOT\\code\\data\\independent_hard_selected15_prediction_soft_hard.xlsx",
+        "location": "Sheet1 row 11"
+      }
+    ],
+    "full_input_maxdiff": 3.000000248221113e-10,
+    "prediction_maxdiff": 3.652345981208782e-09,
+    "pairing_status": "matched all six moduli and both candidate parameters; unique target",
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": true,
+    "target_source_kind": "saved homogenization-derived target at original test geometry",
+    "origin_record_file": "PROJECT_ROOT\\code\\data\\independent_hard_selected15_prediction_soft_hard.xlsx",
+    "origin_record_location": "Sheet1 row 11",
+    "code_location": "Prediction_without_refinement_high_stiffness_sample.ipynb cells 17/19–23 or 62/63; row[y_cols] -> scaler_y.transform -> physical-unit inverse-transformed predictions",
+    "target_t1": -1.571285991904685,
+    "target_t2": -0.9628264852158406,
+    "phase_counts_candidate": [
+      0,
+      30776,
+      94224
+    ],
+    "phase_counts_target": [
+      13360,
+      14704,
+      96936
+    ],
+    "same_phase_field": false,
+    "same_interpolated_material_field": false,
+    "different_phase_elements": 16072,
+    "field_max_difference": 421.94800766260073,
+    "candidate_homogeneous_field": false,
+    "domain_reference": "expanded 20111-row database",
+    "inside_global_coordinate_bounds": true,
+    "material_group_reference": "expanded 20111-row database",
+    "material_group_rows": 0,
+    "inside_group_coordinate_bounds": null,
+    "joint_reachability_from_coordinate_bounds": "not inferred",
+    "previously_zero_or_roundoff_target_error": false,
+    "audited_calculation_status": "matched all six moduli and both candidate parameters; unique target",
+    "audited_Calculated_storage": 256.1127478,
+    "audited_Calculated_loss": 94.66477697
+  },
+  {
+    "cohort": "High",
+    "Case": "H24",
+    "paper_table": "S7",
+    "paper_case": 24,
+    "Ep1": 317.8309826,
+    "Ep2": 5.999401512,
+    "Ep3": 317.8309826,
+    "Epp1": 136.9403825,
+    "Epp2": 0.003760399,
+    "Epp3": 136.9403825,
+    "t1": 0.295084596,
+    "t2": 0.3948614,
+    "Target_storage": 286.1940894217622,
+    "Target_loss": 122.77224802105812,
+    "Predicted_storage": 289.3684998,
+    "Predicted_loss": 116.1635361,
+    "Calculated_storage": 302.3043637,
+    "Calculated_loss": 129.9464503,
+    "calculation_source": "code/data/testing_2_hard_all.xlsx; Sheet1 row 25",
+    "request_sources": [
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 84 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 86 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 84 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 86 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 84 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 86 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "PROJECT_ROOT\\code\\data\\independent_hard_selected15_prediction_soft_hard.xlsx",
+        "location": "Sheet1 row 12"
+      }
+    ],
+    "full_input_maxdiff": 5.000000413701855e-10,
+    "prediction_maxdiff": 4.414062004798325e-08,
+    "pairing_status": "matched all six moduli and both candidate parameters; unique target",
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": true,
+    "target_source_kind": "saved homogenization-derived target at original test geometry",
+    "origin_record_file": "PROJECT_ROOT\\code\\data\\independent_hard_selected15_prediction_soft_hard.xlsx",
+    "origin_record_location": "Sheet1 row 12",
+    "code_location": "Prediction_without_refinement_high_stiffness_sample.ipynb cells 17/19–23 or 62/63; row[y_cols] -> scaler_y.transform -> physical-unit inverse-transformed predictions",
+    "target_t1": -2.946368534591711,
+    "target_t2": -2.009107727340154,
+    "phase_counts_candidate": [
+      73136,
+      3632,
+      48232
+    ],
+    "phase_counts_target": [
+      88,
+      6952,
+      117960
+    ],
+    "same_phase_field": false,
+    "same_interpolated_material_field": false,
+    "different_phase_elements": 76680,
+    "field_max_difference": 311.73804096830924,
+    "candidate_homogeneous_field": false,
+    "domain_reference": "expanded 20111-row database",
+    "inside_global_coordinate_bounds": true,
+    "material_group_reference": "expanded 20111-row database",
+    "material_group_rows": 0,
+    "inside_group_coordinate_bounds": null,
+    "joint_reachability_from_coordinate_bounds": "not inferred",
+    "previously_zero_or_roundoff_target_error": false,
+    "audited_calculation_status": "matched all six moduli and both candidate parameters; unique target",
+    "audited_Calculated_storage": 302.3043637,
+    "audited_Calculated_loss": 129.9464503
+  },
+  {
+    "cohort": "High",
+    "Case": "H25",
+    "paper_table": "S7",
+    "paper_case": 25,
+    "Ep1": 423.0865691,
+    "Ep2": 1.011951714,
+    "Ep3": 423.0865691,
+    "Epp1": 156.7878024,
+    "Epp2": 0.06922802,
+    "Epp3": 156.7878024,
+    "t1": 1.743661165,
+    "t2": 3.11978507,
+    "Target_storage": 348.39184419110836,
+    "Target_loss": 128.98987912191555,
+    "Predicted_storage": 359.6435547,
+    "Predicted_loss": 123.609169,
+    "Calculated_storage": 360.4682312,
+    "Calculated_loss": 133.4909047,
+    "calculation_source": "code/data/testing_2_hard_all.xlsx; Sheet1 row 26",
+    "request_sources": [
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 86 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 86 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 86 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "PROJECT_ROOT\\code\\data\\independent_hard_selected15_prediction_soft_hard.xlsx",
+        "location": "Sheet1 row 13"
+      }
+    ],
+    "full_input_maxdiff": 4.193116964756882e-10,
+    "prediction_maxdiff": 1.2499981494329404e-08,
+    "pairing_status": "matched all six moduli and both candidate parameters; unique target",
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": true,
+    "target_source_kind": "saved homogenization-derived target at original test geometry",
+    "origin_record_file": "PROJECT_ROOT\\code\\data\\independent_hard_selected15_prediction_soft_hard.xlsx",
+    "origin_record_location": "Sheet1 row 13",
+    "code_location": "Prediction_without_refinement_high_stiffness_sample.ipynb cells 17/19–23 or 62/63; row[y_cols] -> scaler_y.transform -> physical-unit inverse-transformed predictions",
+    "target_t1": 1.603129733586761,
+    "target_t2": 2.760642235011372,
+    "phase_counts_candidate": [
+      114496,
+      10504,
+      0
+    ],
+    "phase_counts_target": [
+      112168,
+      12112,
+      720
+    ],
+    "same_phase_field": false,
+    "same_interpolated_material_field": false,
+    "different_phase_elements": 3048,
+    "field_max_difference": 421.94800766260073,
+    "candidate_homogeneous_field": false,
+    "domain_reference": "expanded 20111-row database",
+    "inside_global_coordinate_bounds": true,
+    "material_group_reference": "expanded 20111-row database",
+    "material_group_rows": 0,
+    "inside_group_coordinate_bounds": null,
+    "joint_reachability_from_coordinate_bounds": "not inferred",
+    "previously_zero_or_roundoff_target_error": false,
+    "audited_calculation_status": "matched all six moduli and both candidate parameters; unique target",
+    "audited_Calculated_storage": 360.4682312,
+    "audited_Calculated_loss": 133.4909047
+  },
+  {
+    "cohort": "High",
+    "Case": "H26",
+    "paper_table": "S7",
+    "paper_case": 26,
+    "Ep1": 423.0865691,
+    "Ep2": 1.011951714,
+    "Ep3": 423.0865691,
+    "Epp1": 156.7878024,
+    "Epp2": 0.06922802,
+    "Epp3": 156.7878024,
+    "t1": 0.143727303,
+    "t2": 0.258200765,
+    "Target_storage": 378.61526406649216,
+    "Target_loss": 140.14424107571105,
+    "Predicted_storage": 386.7614136,
+    "Predicted_loss": 131.4555359,
+    "Calculated_storage": 397.9759004,
+    "Calculated_loss": 147.4328617,
+    "calculation_source": "code/data/testing_2_hard_all.xlsx; Sheet1 row 27",
+    "request_sources": [
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 88 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "PROJECT_ROOT\\code\\data\\independent_hard_selected15_prediction_soft_hard.xlsx",
+        "location": "Sheet1 row 14"
+      }
+    ],
+    "full_input_maxdiff": 4.4873046944893247e-10,
+    "prediction_maxdiff": 2.5781275780900614e-08,
+    "pairing_status": "matched all six moduli and both candidate parameters; unique target",
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": true,
+    "target_source_kind": "saved homogenization-derived target at original test geometry",
+    "origin_record_file": "PROJECT_ROOT\\code\\data\\independent_hard_selected15_prediction_soft_hard.xlsx",
+    "origin_record_location": "Sheet1 row 14",
+    "code_location": "Prediction_without_refinement_high_stiffness_sample.ipynb cells 17/19–23 or 62/63; row[y_cols] -> scaler_y.transform -> physical-unit inverse-transformed predictions",
+    "target_t1": -0.04458557548021425,
+    "target_t2": 0.1082753064683502,
+    "phase_counts_candidate": [
+      67808,
+      4032,
+      53160
+    ],
+    "phase_counts_target": [
+      60912,
+      5288,
+      58800
+    ],
+    "same_phase_field": false,
+    "same_interpolated_material_field": false,
+    "different_phase_elements": 10928,
+    "field_max_difference": 421.94800766260073,
+    "candidate_homogeneous_field": false,
+    "domain_reference": "expanded 20111-row database",
+    "inside_global_coordinate_bounds": true,
+    "material_group_reference": "expanded 20111-row database",
+    "material_group_rows": 0,
+    "inside_group_coordinate_bounds": null,
+    "joint_reachability_from_coordinate_bounds": "not inferred",
+    "previously_zero_or_roundoff_target_error": false,
+    "audited_calculation_status": "matched all six moduli and both candidate parameters; unique target",
+    "audited_Calculated_storage": 397.9759004,
+    "audited_Calculated_loss": 147.4328617
+  },
+  {
+    "cohort": "High",
+    "Case": "H27",
+    "paper_table": "S7",
+    "paper_case": 27,
+    "Ep1": 423.0865691,
+    "Ep2": 1.011951714,
+    "Ep3": 423.0865691,
+    "Epp1": 156.7878024,
+    "Epp2": 0.06922802,
+    "Epp3": 156.7878024,
+    "t1": 0.059394956,
+    "t2": 0.122443557,
+    "Target_storage": 398.91666591954265,
+    "Target_loss": 147.73281792314177,
+    "Predicted_storage": 399.9572754,
+    "Predicted_loss": 139.3591309,
+    "Calculated_storage": 413.1400877,
+    "Calculated_loss": 153.0906346,
+    "calculation_source": "code/data/testing_2_hard_all.xlsx; Sheet1 row 28",
+    "request_sources": [
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 90 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "PROJECT_ROOT\\code\\data\\independent_hard_selected15_prediction_soft_hard.xlsx",
+        "location": "Sheet1 row 15"
+      }
+    ],
+    "full_input_maxdiff": 3.6492919797126433e-10,
+    "prediction_maxdiff": 4.0624996699989424e-08,
+    "pairing_status": "matched all six moduli and both candidate parameters; unique target",
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": true,
+    "target_source_kind": "saved homogenization-derived target at original test geometry",
+    "origin_record_file": "PROJECT_ROOT\\code\\data\\independent_hard_selected15_prediction_soft_hard.xlsx",
+    "origin_record_location": "Sheet1 row 15",
+    "code_location": "Prediction_without_refinement_high_stiffness_sample.ipynb cells 17/19–23 or 62/63; row[y_cols] -> scaler_y.transform -> physical-unit inverse-transformed predictions",
+    "target_t1": -1.593565533550446,
+    "target_t2": -1.440440531246083,
+    "phase_counts_candidate": [
+      64664,
+      2016,
+      58320
+    ],
+    "phase_counts_target": [
+      13000,
+      2768,
+      109232
+    ],
+    "same_phase_field": false,
+    "same_interpolated_material_field": false,
+    "different_phase_elements": 53680,
+    "field_max_difference": 421.94800766260073,
+    "candidate_homogeneous_field": false,
+    "domain_reference": "expanded 20111-row database",
+    "inside_global_coordinate_bounds": true,
+    "material_group_reference": "expanded 20111-row database",
+    "material_group_rows": 0,
+    "inside_group_coordinate_bounds": null,
+    "joint_reachability_from_coordinate_bounds": "not inferred",
+    "previously_zero_or_roundoff_target_error": false,
+    "audited_calculation_status": "matched all six moduli and both candidate parameters; unique target",
+    "audited_Calculated_storage": 413.1400877,
+    "audited_Calculated_loss": 153.0906346
+  },
+  {
+    "cohort": "High",
+    "Case": "H28",
+    "paper_table": "S7",
+    "paper_case": 28,
+    "Ep1": 423.0865691,
+    "Ep2": 1.011951714,
+    "Ep3": 423.0865691,
+    "Epp1": 156.7878024,
+    "Epp2": 0.06922802,
+    "Epp3": 156.7878024,
+    "t1": 0.264899373,
+    "t2": 0.261210918,
+    "Target_storage": 419.6973995684928,
+    "Target_loss": 155.52154912522337,
+    "Predicted_storage": 423.0881653,
+    "Predicted_loss": 148.0407715,
+    "Calculated_storage": 422.9598126,
+    "Calculated_loss": 156.740969,
+    "calculation_source": "code/data/testing_2_hard_all.xlsx; Sheet1 row 29",
+    "request_sources": [
+      {
+        "file": "Prediction_without_refinement_high_stiffness_sample.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "lastest model backup\\Prediction_without_refinement_soft_hard_indep.ipynb",
+        "location": "cell 92 saved output"
+      },
+      {
+        "file": "PROJECT_ROOT\\code\\data\\independent_hard_selected15_prediction_soft_hard.xlsx",
+        "location": "Sheet1 row 16"
+      }
+    ],
+    "full_input_maxdiff": 4.265136577252804e-10,
+    "prediction_maxdiff": 1.6796889212855604e-08,
+    "pairing_status": "matched all six moduli and both candidate parameters; unique target",
+    "is_manual_expansion_confirmed": false,
+    "intent_evidence": "No run-matched comment explicitly identifies deliberate target extrapolation",
+    "target_geometry_confirmed": true,
+    "target_source_kind": "saved homogenization-derived target at original test geometry",
+    "origin_record_file": "PROJECT_ROOT\\code\\data\\independent_hard_selected15_prediction_soft_hard.xlsx",
+    "origin_record_location": "Sheet1 row 16",
+    "code_location": "Prediction_without_refinement_high_stiffness_sample.ipynb cells 17/19–23 or 62/63; row[y_cols] -> scaler_y.transform -> physical-unit inverse-transformed predictions",
+    "target_t1": 2.817432311019349,
+    "target_t2": 2.979324368360333,
+    "phase_counts_candidate": [
+      72152,
+      0,
+      52848
+    ],
+    "phase_counts_target": [
+      124520,
+      472,
+      8
+    ],
+    "same_phase_field": false,
+    "same_interpolated_material_field": false,
+    "different_phase_elements": 52840,
+    "field_max_difference": 421.94800766260073,
+    "candidate_homogeneous_field": true,
+    "domain_reference": "expanded 20111-row database",
+    "inside_global_coordinate_bounds": true,
+    "material_group_reference": "expanded 20111-row database",
+    "material_group_rows": 0,
+    "inside_group_coordinate_bounds": null,
+    "joint_reachability_from_coordinate_bounds": "not inferred",
+    "previously_zero_or_roundoff_target_error": false,
+    "audited_calculation_status": "matched all six moduli and both candidate parameters; unique target",
+    "audited_Calculated_storage": 422.9598126,
+    "audited_Calculated_loss": 156.740969
+  }
+]
